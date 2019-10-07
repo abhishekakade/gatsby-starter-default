@@ -1,0 +1,162 @@
+#contact {
+  background: #d2f1ffab;
+  padding: 0rem;
+  font-size: 1.1rem;
+}
+
+.contact-container {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-info,
+.address-info {
+  width: 45%;
+}
+
+form {
+  margin: 1rem 0;
+  margin-left: 1rem;
+  padding: 1.5rem 2rem;
+  width: fit-content;
+  border: 2px solid midnightblue;
+  border-radius: 5px;
+  background: #aee4fc;
+  background: #c2ecff;
+}
+
+#contact form * {
+  border-radius: 5px;
+}
+
+#contact form label p {
+  text-align: left;
+}
+
+#contact form h3 {
+  margin: 0 auto;
+}
+
+#contact h3 {
+  /* padding: 1rem; */
+  margin: 1rem auto;
+}
+
+#contact label p {
+  padding-bottom: 5px;
+}
+
+#contact p {
+  max-width: 32ch;
+}
+
+.person,
+.alternate-email,
+.short-text,
+.subject-icon {
+  margin-right: 0.25rem;
+  height: 1rem;
+  width: 1rem;
+  color: black;
+}
+
+.send-icon {
+  height: 1rem;
+  width: 1rem;
+  color: #ddddff;
+  margin-left: 0.25rem;
+}
+
+#submit-btn {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  border: none;
+  background: linear-gradient(to right, midnightblue, #004394, midnightblue);
+  color: #ddddff;
+}
+
+#submit-btn:hover {
+  box-shadow: 0 2px 10px 1px rgba(14, 14, 143, 0.753);
+}
+
+#contact form input,
+#contact textarea {
+  width: 280px;
+  border: 1px solid midnightblue;
+  padding: 0.25rem 0.5rem;
+}
+
+#contact form input:focus,
+#contact textarea:focus,
+#submit-btn:focus {
+  outline: none;
+  border: 2px solid midnightblue;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px 1px rgba(76, 76, 155, 0.75);
+}
+
+#contact label {
+  display: block;
+  padding: 0.5rem 0;
+  padding-bottom: 0;
+}
+
+.phone {
+  /* color: royalblue; */
+  color: black;
+  margin-right: 0.5rem;
+  font-size: 1.35rem;
+  height: 3rem;
+  height: 2.5rem;
+  width: 3rem;
+  width: 2.5rem;
+  padding: 0.35rem;
+  padding: 0.3rem;
+  /* border: 1px solid black; */
+  border: 0.2rem solid dodgerblue;
+  border-radius: 10px;
+  /* color: #ddddff; */
+  /* background: #004394; */
+  color: dodgerblue;
+}
+
+.contact-number {
+  font-size: 1.25rem;
+  /* text-decoration: none; */
+  font-weight: bold;
+  color: black;
+}
+
+#contact address {
+  font-style: normal;
+  font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 980px) {
+  #contact {
+    text-align: center;
+  }
+
+  #contact .contact-container {
+    padding: 2rem;
+    display: block;
+  }
+
+  #contact form {
+    display: block;
+    margin: 1rem auto;
+    margin-bottom: 2rem;
+  }
+  #contact .contact-info,
+  #contact .address-info {
+    width: 100%;
+  }
+
+  #contact p {
+    max-width: 45ch;
+    margin: auto;
+  }
+}

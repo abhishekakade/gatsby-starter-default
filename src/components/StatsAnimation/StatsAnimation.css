@@ -1,0 +1,103 @@
+/* [SLIDER] */
+
+#slider .slide h3 {
+  font-family: "Trebuchet MS", "Lato", sans-serif;
+  margin-bottom: 0;
+  font-size: 2rem;
+  text-shadow: none;
+}
+
+#slider .slide p {
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  font-family: "Raleway", monospace;
+  font-weight: 400;
+}
+
+#slider,
+#slider .slide {
+  letter-spacing: 1px;
+  color: lightsteelblue;
+  text-align: center;
+  width: 100%;
+  height: 6rem;
+}
+#slider {
+  overflow: hidden;
+  margin: 0 auto;
+  font-size: 1.2em;
+  /* background: dodgerblue; */
+  background: #002b58;
+  background: linear-gradient(to right, midnightblue, #004394, midnightblue);
+}
+#slider .container {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  animation: slide-animation 16s infinite;
+}
+#slider .slide {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+/* [ANIMATION] */
+
+/* ANIMATION BREAKDOWN
+
+4% is the time that slider needs to change position, that is to 'slide up'.
+This happens totally 4 times during the entirity of 1 animation cycle.
+So 4% for 4 times = 16%.
+
+100%-16% = 84%
+So now we are left with 84% of time to show the slides. Slides will not be moving for this time. 
+They will stay in one position so its easy to read. There will be no animation here. 
+
+Now there are 4 slides in total and we have 84% of the animation time left to show them. 
+So 84/4 = 21%. 
+So each slide will appear for 21% of animation cycle. 
+
+Why are first and last animations only 2%? 
+Each slide needs 4% of time to slide up. 
+But that leaves the screen with no text at all after and before each animation cycle.
+To reduce the time the screen is left blank, 
+4% of time was divided into 2% for the last slide and 2% for the first slide.
+So first slide slides in between 0 to 2% and the last slide slides out between 98 to 100%. 
+Thus leaving the same amount of time between each slide animation. 
+I'm brilliant, aren't I? Haha!
+
+*/
+
+@keyframes slide-animation {
+  0% {
+    bottom: -6rem;
+  }
+  2% {
+    bottom: 0;
+  }
+  23% {
+    bottom: 0;
+  }
+  27% {
+    bottom: 6rem;
+  }
+  48% {
+    bottom: 6rem;
+  }
+  52% {
+    bottom: 12rem;
+  }
+  73% {
+    bottom: 12rem;
+  }
+  77% {
+    bottom: 18rem;
+  }
+  98% {
+    bottom: 18rem;
+  }
+  100% {
+    bottom: 24rem;
+  }
+}

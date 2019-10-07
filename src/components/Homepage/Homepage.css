@@ -1,0 +1,229 @@
+/* Carousel Styling */
+
+.carousel {
+  /* black background color will keep the blackish tint on screen even when images are changing */
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.carousel li span {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  opacity: 0;
+  z-index: 0;
+  filter: brightness(30%);
+  animation: imageAnimation 36s linear infinite 0s;
+}
+
+.carousel li .image-text {
+  font-family: "Lato", sans-serif;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  /* border: 1px solid rgba(250, 250, 250, 0.5); */
+  /* border: 1px solid rgba(0, 0, 0, 0.5); */
+
+  padding: 2rem;
+  opacity: 0;
+  letter-spacing: 1px;
+  color: rgba(250, 250, 250, 0.75);
+  /* height: 50%; */
+  height: auto;
+  background: rgba(0, 0, 0, 0.3);
+  animation: titleAnimation 36s infinite 0s;
+}
+
+.carousel li .image-text .row p:nth-child(1) {
+  font-size: 1.5rem;
+  font-weight: bold;
+  word-spacing: 5px;
+  color: rgba(250, 250, 250, 0.8);
+  margin-bottom: 0.75rem;
+}
+.carousel li .image-text .row p:nth-child(2) {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+}
+
+.carousel li div span {
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+  padding: 0;
+  /* line-height: 50vh; */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+/* TODO: ADD MEDIA QUERIES AND LOW RES IMAGES FOR DIFFERENT SCREEN SIZES */
+
+.carousel li:nth-child(1) span {
+  background-image: url(../../images/bg1.jpg);
+  filter: hue-rotate(0deg) brightness(50%);
+}
+.carousel li:nth-child(2) span {
+  background-image: url(../../images/bg2.jpg);
+  filter: hue-rotate(0deg) brightness(50%);
+  animation-delay: 6s;
+}
+.carousel li:nth-child(3) span {
+  background-image: url(../../images/bg3.jpg);
+  filter: hue-rotate(0deg) brightness(50%);
+  animation-delay: 12s;
+}
+.carousel li:nth-child(4) span {
+  background-image: url(../../images/bg4.jpg);
+  filter: hue-rotate(0deg) brightness(50%);
+  animation-delay: 18s;
+}
+.carousel li:nth-child(5) span {
+  background-image: url(../../images/bg5.jpg);
+  filter: hue-rotate(0deg) brightness(50%);
+  animation-delay: 24s;
+}
+.carousel li:nth-child(6) span {
+  background-image: url(../../images/bg6.jpg);
+  filter: hue-rotate(0deg) brightness(50%);
+  animation-delay: 30s;
+}
+
+.carousel li:nth-child(2) div {
+  animation-delay: 6s;
+}
+.carousel li:nth-child(3) div {
+  animation-delay: 12s;
+}
+.carousel li:nth-child(4) div {
+  animation-delay: 18s;
+}
+.carousel li:nth-child(5) div {
+  animation-delay: 24s;
+}
+.carousel li:nth-child(6) div {
+  animation-delay: 30s;
+}
+
+/* .row:nth-child(1) {
+  animation: slideTextRight infinite 6s;
+}
+.row:nth-child(2) {
+  animation: slideTextLeft infinite 6s;
+}
+.row:nth-child(3) {
+  animation: slideTextRight infinite 6s;
+}
+.row:nth-child(4) {
+  animation: slideTextLeft infinite 6s;
+}
+.row:nth-child(5) {
+  animation: slideTextRight infinite 6s;
+}
+.row:nth-child(6) {
+  animation: slideTextLeft infinite 6s;
+}
+
+@keyframes slideTextRight {
+  0% {
+    transform: translate(-45%, -25%);
+    opacity: 0.3 !important;
+  }
+
+  100% {
+    transform: translate(-50%, -25%);
+    opacity: 1 !important;
+  }
+}
+
+@keyframes slideTextLeft {
+  0% {
+    border: 1px solid red;
+    transform: translate(60%, -25%);
+    opacity: 0.3 !important;
+  }
+
+  100% {
+    transform: translate(-50%, -25%);
+    opacity: 1 !important;
+  }
+} */
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+    animation-timing-function: ease-in;
+  }
+  6% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  17% {
+    overflow: hidden;
+    opacity: 1;
+  }
+  23% {
+    opacity: 0;
+    transform: scale(1.08, 1.08);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes titleAnimation {
+  0% {
+    opacity: 0;
+    animation-timing-function: ease-in;
+  }
+  8% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  17% {
+    opacity: 1;
+    /* transform: scale(1.01, 1.01); */
+  }
+  19% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.no-cssanimations .carousel li span {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1140px) {
+  .carousel li div {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .carousel li .image-text .row p:nth-child(1) {
+    font-size: 1.2rem;
+    word-spacing: normal;
+  }
+  .carousel li .image-text .row p:nth-child(2) {
+    font-size: 1rem;
+  }
+  .carousel li .image-text {
+    width: 100%;
+  }
+}

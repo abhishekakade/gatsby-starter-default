@@ -1,0 +1,475 @@
+/* 
+
+Class Names
+
+fr = Fire Resistant (SIG - FR)
+imp = Impact Resistant (SIG - IR)
+mfr = Moisture and Fire Resistant (SIG - MRFR)
+mr = Moisture Resistant (SIG - MR)
+prem = Premium (SIG - Premium)
+pb = Plaster Board (SIG - Regular)
+con = Convex (Rexon - Convex)
+eli = Elite (SIG - Elite)
+
+skip-nav = adds top-padding of 4rem to skip navbar
+
+*/
+
+/* sky blue lightskyblue */
+/* lighter blue #007dff */
+/* white #EEEEEE */
+/* dark blue #004394 from logo */
+/* passing colors = #006AFF with #FFFFFF */
+/* deepskyblue */
+/* dodgerblue */
+/* royalblue */
+/* lightskyblue */
+/* aliceblue */
+/* stats slider background #002b58 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.skip-nav {
+  padding-top: 4rem;
+  padding-top: 4.5rem;
+}
+
+/* Products Main Page */
+
+#products-list {
+  list-style: none;
+  text-align: center;
+  /* display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "GypsumBoards FiberCement Plasters" "Gypbond Tiles Metal"; */
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#products-list {
+  position: static;
+}
+
+#products-list li {
+  justify-content: space-between;
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  flex-grow: 1;
+  width: 29%;
+  margin: 2%;
+  transition: 0.3s;
+  position: relative;
+  background: aliceblue;
+  /* box-shadow: 0px 3px 10px 1px midnightblue; */
+  box-shadow: 2px 3px 8px 1px #9898bb;
+}
+
+#products-list li:hover {
+  transform: scale(1.05);
+}
+
+.main-product-title {
+  padding: 1.5rem;
+  padding-bottom: 1rem;
+  /* padding: 1rem; */
+  margin-bottom: 0;
+  /* background: #004394; */
+  /* color: lightsteelblue; */
+  color: midnightblue;
+  /* background: linear-gradient(to bottom, midnightblue, #004394); */
+  /* background: linear-gradient(to bottom, #004394, midnightblue); */
+  font-size: 1.25rem;
+  /* font-weight: 400; */
+  font-weight: bold;
+  /* font-family: "Lato", "Lucida Sans", "Helvetica", sans-serif; */
+  /* font-weight: bold; */
+  font-family: "Raleway", "Lucida Sans", "Helvetica", sans-serif;
+}
+.main-product-summary {
+  padding: 0.5rem 1rem;
+  padding-top: 0;
+  padding-bottom: 3.5rem;
+}
+
+.main-product-button {
+  position: absolute;
+  bottom: 0;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 3rem;
+  display: block;
+  /* font-family: "Raleway", "Lucida Sans", "Helvetica", sans-serif; */
+  font-family: "Lato", "Lucida Sans", "Helvetica", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background: #000000;
+  /* background-color: linear-gradient(to bottom, black, #444); */
+  background: linear-gradient(to bottom, black, #444);
+  transition: 0.5s;
+  color: aliceblue;
+  color: #ddddff;
+  text-decoration: none !important;
+  border-radius: 0 0 5px 5px;
+  background: linear-gradient(to bottom, midnightblue, #004394);
+}
+.main-product-button:hover {
+  cursor: pointer;
+  /* background-color: linear-gradient(to top, black, #444); */
+  /* background: linear-gradient(to top, black, #444); */
+  background: linear-gradient(to bottom, #004394, midnightblue);
+  text-decoration: underline;
+}
+
+/* Main Product Classification Page */
+
+.product-page-header {
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: underline;
+}
+.product-page-subtitle {
+  font-size: 1.5rem;
+  text-align: center;
+  color: black;
+  letter-spacing: 2px;
+  background: transparent;
+}
+
+.classification-list {
+  display: flex;
+  /* padding: 1rem; */
+}
+
+.classification-list h4 {
+  color: royalblue;
+}
+
+.classification-list li {
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  flex-grow: 1;
+  width: 29%;
+  margin: 2%;
+  transition: 0.3s;
+  position: relative;
+  background: aliceblue;
+  /* box-shadow: 0px 3px 10px 1px midnightblue; */
+  box-shadow: 2px 3px 8px 1px #9898bb;
+}
+
+/* Individual Product Pages */
+
+.product-details {
+  font-family: "Lato", "Lucida Sans", "Helvetica", sans-serif;
+  font-weight: bold;
+}
+
+.container-div {
+  padding: 1rem;
+}
+
+.table-section {
+  padding: 0;
+  padding-top: 1rem;
+}
+
+.product-title {
+  font-size: 1.5rem;
+  font-family: "Raleway", "Lucida Sans", "Helvetica", sans-serif;
+  text-align: center;
+}
+
+.product-subtitle {
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: "Raleway", "Lucida Sans", "Helvetica", sans-serif;
+  font-weight: bold;
+}
+
+.product-intro {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  /* font-family: "Raleway", sans-serif; */
+  font-family: "Lato", "Lucida Sans", "Helvetica", sans-serif;
+  font-weight: normal;
+  color: #444444;
+  max-width: 70ch;
+  text-align: center;
+  margin: 1rem auto;
+}
+.product-intro::first-letter {
+  margin-left: 2rem;
+}
+
+.list-group {
+  list-style: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.checksquare,
+.plussquare,
+.phone {
+  /* color: royalblue; */
+  color: black;
+  margin-right: 0.25rem;
+  font-size: 1rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+/* Tables */
+
+th {
+  background: lightskyblue;
+  color: #000000;
+  border: 2px solid #000000;
+  padding: 0.5rem !important;
+}
+
+td {
+  border: 2px solid #000000;
+  padding: 0.5rem !important;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+  background-color: lightsteelblue;
+}
+
+.fr1 tr,
+.imp1 tr,
+.mfr1 tr,
+.mr1 tr,
+.prem1 tr,
+.pb1 tr {
+  background-color: #ffffff;
+}
+
+/* @media only screen and (max-width: 1100px) {
+  #products-list li {
+    width: 30%;
+    margin: 1.2%;
+  }
+} */
+
+@media only screen and (max-width: 980px) {
+  #products-list li {
+    width: 45%;
+    margin: 2%;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  #products-list li {
+    width: 100%;
+    margin: 1rem;
+  }
+}
+
+/* Responsive Tables */
+
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+
+  .responsive,
+  .responsive thead,
+  .responsive tbody,
+  .responsive th,
+  .responsive td,
+  .responsive tr {
+    display: block;
+    text-align: center;
+  }
+  .responsive {
+    width: auto;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  .responsive thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .responsive tr {
+    /* margin: 0 0 1rem 0; */
+    background: #ffffff;
+    margin: 0;
+  }
+
+  .responsive tr:nth-child(odd) {
+    background: lightskyblue;
+  }
+  .responsive tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+
+  .responsive td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #000000;
+    position: relative;
+    padding-left: 50% !important;
+  }
+
+  .responsive td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    /* top: 0; */
+    left: 0.5rem;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  .responsive caption {
+    display: block;
+  }
+
+  /* FiberCement Table 1 */
+  .fc1 td:nth-of-type(1):before {
+    content: "Attribute";
+  }
+  .fc1 td:nth-of-type(2):before {
+    content: "Benefit";
+  }
+
+  /* FiberCement Table 2 */
+  .fc2 td:nth-of-type(1):before {
+    content: "Product";
+  }
+  .fc2 td:nth-of-type(2):before {
+    content: "Thickness (mm)";
+  }
+  .fc2 td:nth-of-type(3):before {
+    content: "Width (mm)";
+  }
+  .fc2 td:nth-of-type(4):before {
+    content: "Length (mm)";
+  }
+
+  /* FiberCement Table 3 */
+  .fc3 td:nth-of-type(1):before {
+    content: "Property";
+  }
+  .fc3 td:nth-of-type(2):before {
+    content: "Specification";
+  }
+
+  /* FireResistant Table 2 */
+  .fr2 td:nth-of-type(1):before {
+    content: "Property";
+  }
+  .fr2 td:nth-of-type(2):before {
+    content: "ASTM C1396";
+  }
+  .fr2 td:nth-of-type(3):before {
+    content: "DIN EN 520";
+  }
+  .fr2 td:nth-of-type(4):before {
+    content: "SIG – FR";
+  }
+
+  /* Impact Resistant Table 2 */
+  /* Is single column table so content not needed */
+
+  /* Impact Resistant Table 2 */
+  .imp2 td:nth-of-type(1):before {
+    content: "Property";
+  }
+  .imp2 td:nth-of-type(2):before {
+    content: "SIG - IR";
+  }
+
+  /* MFR (Moisture Fire Resistant) Table 2 */
+  .mfr2 td:nth-of-type(1):before {
+    content: "Property";
+  }
+  .mfr2 td:nth-of-type(2):before {
+    content: "ASTM C1396";
+  }
+  .mfr2 td:nth-of-type(3):before {
+    content: "DIN EN 520";
+  }
+  .mfr2 td:nth-of-type(4):before {
+    content: "SIG – MRFR";
+  }
+
+  /* Moisture Resistant Table 2 */
+  .mr2 td:nth-of-type(1):before {
+    content: "Property";
+  }
+  .mr2 td:nth-of-type(2):before {
+    content: "ASTM C1396";
+  }
+  .mr2 td:nth-of-type(3):before {
+    content: "DIN EN 520";
+  }
+  .mr2 td:nth-of-type(4):before {
+    content: "SIG – MR";
+  }
+
+  /* Premium Table 2 */
+  .prem2 td:nth-of-type(1):before {
+    content: "Property";
+  }
+  .prem2 td:nth-of-type(2):before {
+    content: "ASTM C1396";
+  }
+  .prem2 td:nth-of-type(3):before {
+    content: "DIN EN 520";
+  }
+  .prem2 td:nth-of-type(4):before {
+    content: "SIG – Premium";
+  }
+
+  /* Premium Table 2 */
+  .pb2 td:nth-of-type(1):before {
+    content: "Property";
+  }
+  .pb2 td:nth-of-type(2):before {
+    content: "ASTM C1396";
+  }
+  .pb2 td:nth-of-type(3):before {
+    content: "DIN EN 520";
+  }
+  .pb2 td:nth-of-type(4):before {
+    content: "SIG – Regular";
+  }
+
+  /* Convex Table 1 */
+  .con1 td:nth-of-type(1):before {
+    content: "Property";
+  }
+  .con1 td:nth-of-type(2):before {
+    content: "Details";
+  }
+
+  /* Elite Table 1 */
+  .eli1 td:nth-of-type(1):before {
+    content: "Property";
+  }
+  .eli1 td:nth-of-type(2):before {
+    content: "Details";
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .product-details {
+    padding: 0;
+  }
+}

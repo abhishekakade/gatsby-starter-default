@@ -1,0 +1,45 @@
+@media only screen and (max-width: 480px) {
+  #about-page-img {
+    width: 95%;
+  }
+
+  #about-page-intro {
+    padding: 1rem;
+    font-size: 1.2rem;
+    line-height: 25px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #about-page-img {
+    width: 85%;
+  }
+
+  #about-page-intro {
+    padding: 1.25rem;
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #about-page-img {
+    width: 75%;
+  }
+
+  #about-page-intro {
+    padding: 1.75rem;
+    font-size: 1.4rem;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  #about-page-img {
+    width: 65%;
+  }
+
+  #about-page-intro {
+    padding: 2rem;
+    font-size: 1.4rem;
+    line-height: 40px;
+  }
+}
