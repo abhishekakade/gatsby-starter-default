@@ -15,14 +15,13 @@
   width: 45%;
 }
 
-form {
+#contact form {
   margin: 1rem 0;
   margin-left: 1rem;
   padding: 1.5rem 2rem;
   width: fit-content;
   border: 2px solid midnightblue;
   border-radius: 5px;
-  background: #aee4fc;
   background: #c2ecff;
 }
 
@@ -72,7 +71,7 @@ form {
   display: block;
   margin: auto;
   width: 100%;
-  padding: 0.25rem 1rem;
+  padding: 0.25rem 0;
   border: none;
   background: linear-gradient(to right, midnightblue, #004394, midnightblue);
   color: #ddddff;
@@ -105,27 +104,19 @@ form {
 }
 
 .phone {
-  /* color: royalblue; */
   color: black;
   margin-right: 0.5rem;
   font-size: 1.35rem;
-  height: 3rem;
   height: 2.5rem;
-  width: 3rem;
   width: 2.5rem;
-  padding: 0.35rem;
   padding: 0.3rem;
-  /* border: 1px solid black; */
-  border: 0.2rem solid dodgerblue;
   border-radius: 10px;
-  /* color: #ddddff; */
-  /* background: #004394; */
+  border: 0.2rem solid dodgerblue;
   color: dodgerblue;
 }
 
 .contact-number {
   font-size: 1.25rem;
-  /* text-decoration: none; */
   font-weight: bold;
   color: black;
 }
@@ -158,5 +149,28 @@ form {
   #contact p {
     max-width: 45ch;
     margin: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #contact .contact-container {
+    padding: 1rem;
+  }
+  #contact .phone {
+    height: 1.75rem;
+    width: 1.75rem;
+    padding: 0.15rem;
+    border-radius: 8px;
+    border: 0.15rem solid dodgerblue;
+  }
+
+  #contact form {
+    margin: 1rem auto;
+    padding: 1rem 0.5rem;
+  }
+
+  #contact form input,
+  #contact textarea {
+    width: auto;
   }
 }

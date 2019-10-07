@@ -5,43 +5,40 @@ import { Link } from "gatsby"
 const Footer = () => {
   return (
     <footer>
-      <Link to="/">Home</Link>&nbsp;|&nbsp;<Link to="/#products">Products</Link>
-      <Link>
-        <p
+      <Link to="/">Home</Link>&nbsp;&nbsp;<strong>|</strong>
+      &nbsp;&nbsp;
+      <Link to="/#products">Products</Link>
+      <p
+        style={{
+          color: "#bbbbee",
+          padding: "1rem",
+          lineHeight: "1.75",
+        }}
+      >
+        Get a Quote:
+        <a
+          className="contact-number"
+          href="tel:+91-9004899758"
           style={{
-            padding: "0.5rem",
+            color: "#bbbbee",
+            fontSize: "1rem",
+            fontWeight: "bold",
             textDecoration: "underline",
           }}
         >
-          <a
-            className="contact-number"
-            href="tel:+91-9004899758"
-            style={{
-              color: "#ddddff",
-              fontSize: "1.1rem",
-              fontWeight: "bold",
-            }}
-          >
-            Get a Quote:
-            <Phone
-              className="phone"
-              style={{
-                color: "dodgerblue",
-                border: "0.15rem solid dodgerblue",
-                borderRadius: "10px",
-                padding: "0.2rem",
-                width: "2rem",
-                height: "2rem",
-                fontSize: "1.35rem",
-                margin: "auto 0.5rem",
-              }}
-            />
-            +91-9004899758
-            {/* <span></span> */}
-          </a>
-        </p>
-      </Link>
-      <p>© 2019 by Sai India Gypsum Products Private Limited​</p>
+          <br />
+          <Phone className="phone" />
+          +91-9004899758
+          {/* <span></span> */}
+        </a>
+      </p>
+      <p
+        style={{
+          fontSize: "0.9rem",
+        }}
+      >
+        &copy; 2019 by Sai India Gypsum Products Private Limited​
+      </p>
     </footer>
   )
 }

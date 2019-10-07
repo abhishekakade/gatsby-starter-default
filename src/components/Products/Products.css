@@ -34,7 +34,6 @@ skip-nav = adds top-padding of 4rem to skip navbar
 }
 
 .skip-nav {
-  padding-top: 4rem;
   padding-top: 4.5rem;
 }
 
@@ -468,8 +467,24 @@ tr:nth-child(even) {
   }
 }
 
-@media only screen and (max-width: 400px) {
-  .product-details {
-    padding: 0;
+@media only screen and (max-width: 768px) {
+  .skip-nav {
+    padding-top: 3rem;
+  }
+
+  .product-page-header {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .product-page-subtitle {
+    letter-spacing: 1px;
+    padding: 1rem 0;
+    font-size: 1.25rem;
+  }
+
+  .product-intro {
+    font-size: 1.1rem;
+    margin: 0.5rem auto;
   }
 }

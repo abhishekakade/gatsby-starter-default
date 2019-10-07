@@ -20,6 +20,9 @@ const Gypsum_Boards = () => {
               &nbsp;fire rating, acoustic insulation, thermal insulation,
               moisture resistance and impact resistance.&nbsp;
             </em>
+          </p>
+
+          <p className="product-intro">
             Our Plasterboards are durable, easy-to-shape and cost-efficient, are
             flexible and lightweight; the most practical way of construction in
             today's and tomorrow's homes, offices, Hospitals and buildings.
@@ -30,6 +33,7 @@ const Gypsum_Boards = () => {
             style={{
               fontSize: "1.35rem",
               color: "royalblue",
+              marginTop: "1rem",
             }}
           >
             Products Available in PlasterBoards

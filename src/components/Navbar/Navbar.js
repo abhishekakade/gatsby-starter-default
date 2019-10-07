@@ -107,16 +107,28 @@ const Navbar = ({ siteName }) => {
         <div className="line"></div>
       </button>
       <div id="sidebar-nav">
-        <Link to="/" style={{ textDecoration: "none" }}>
+        <Link to="/" onClick={handleSidebar} style={{ textDecoration: "none" }}>
           HOME
         </Link>
-        <Link to="/#products" style={{ textDecoration: "none" }}>
+        <Link
+          to="/#products"
+          onClick={handleSidebar}
+          style={{ textDecoration: "none" }}
+        >
           PRODUCTS
         </Link>
-        <Link to="/#about" style={{ textDecoration: "none" }}>
+        <Link
+          to="/#about"
+          onClick={handleSidebar}
+          style={{ textDecoration: "none" }}
+        >
           ABOUT
         </Link>
-        <Link to="/#contact" style={{ textDecoration: "none" }}>
+        <Link
+          to="/#contact"
+          onClick={handleSidebar}
+          style={{ textDecoration: "none" }}
+        >
           CONTACT
         </Link>
         <a
