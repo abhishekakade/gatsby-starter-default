@@ -2,7 +2,9 @@ import React from "react"
 import "./About.css"
 // import { graphql } from "gatsby"
 // import Img from "gatsby-image"
-import constructionImage from "../../images/bg10.jpg"
+import constructionImg from "../../images/bg10.jpg"
+import constructionImg768 from "../../images/bg10-768.jpg"
+import constructionImg1280 from "../../images/bg10-1280.jpg"
 
 const About = () => {
   // console.log(this.props)
@@ -18,21 +20,25 @@ const About = () => {
       <h2>ABOUT</h2>
       <div className="container-div">
         {/* <Img fluid={imgData.data.file.childImageSharp.fixed} /> */}
-        <img
-          src={constructionImage}
-          alt="Sai India Gypsum"
-          id="about-page-img"
-          style={{
-            // width: "65%",
-            // maxWidth: "70%",
-            height: "auto",
-            marginTop: "1rem",
-            display: "block",
-            margin: "auto",
-            border: "2px solid midnightblue",
-            borderRadius: "5px",
-          }}
-        />
+        <picture>
+          <source srcSet={constructionImg768} media="(max-width: 768px)" />
+          <source srcSet={constructionImg1280} media="(max-width: 1280px)" />
+          <img
+            src={constructionImg}
+            alt="Sai India Gypsum"
+            id="about-page-img"
+            style={{
+              // width: "65%",
+              // maxWidth: "70%",
+              height: "auto",
+              marginTop: "1rem",
+              display: "block",
+              margin: "auto",
+              border: "2px solid midnightblue",
+              borderRadius: "5px",
+            }}
+          />
+        </picture>
 
         <p
           id="about-page-intro"

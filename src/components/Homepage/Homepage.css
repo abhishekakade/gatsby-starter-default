@@ -226,4 +226,71 @@
   .carousel li .image-text {
     width: 100%;
   }
+
+  /* 768px wide images for carousel */
+
+  .carousel li:nth-child(1) span {
+    background-image: url(../../images/bg1-768.jpg);
+  }
+  .carousel li:nth-child(2) span {
+    background-image: url(../../images/bg2-768.jpg);
+  }
+  .carousel li:nth-child(3) span {
+    background-image: url(../../images/bg3-768.jpg);
+  }
+  .carousel li:nth-child(4) span {
+    background-image: url(../../images/bg4-768.jpg);
+  }
+  .carousel li:nth-child(5) span {
+    background-image: url(../../images/bg5-768.jpg);
+  }
+  .carousel li:nth-child(6) span {
+    background-image: url(../../images/bg6-768.jpg);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  /* 1280px wide images for carousel */
+
+  .carousel li:nth-child(1) span {
+    background-image: url(../../images/bg1-1280.jpg);
+  }
+  .carousel li:nth-child(2) span {
+    background-image: url(../../images/bg2-1280.jpg);
+  }
+  .carousel li:nth-child(3) span {
+    background-image: url(../../images/bg3-1280.jpg);
+  }
+  .carousel li:nth-child(4) span {
+    background-image: url(../../images/bg4-1280.jpg);
+  }
+  .carousel li:nth-child(5) span {
+    background-image: url(../../images/bg5-1280.jpg);
+  }
+  .carousel li:nth-child(6) span {
+    background-image: url(../../images/bg6-1280.jpg);
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  /* 1280px wide images for carousel */
+
+  .carousel li:nth-child(1) span {
+    background-image: url(../../images/bg1.jpg);
+  }
+  .carousel li:nth-child(2) span {
+    background-image: url(../../images/bg2.jpg);
+  }
+  .carousel li:nth-child(3) span {
+    background-image: url(../../images/bg3.jpg);
+  }
+  .carousel li:nth-child(4) span {
+    background-image: url(../../images/bg4.jpg);
+  }
+  .carousel li:nth-child(5) span {
+    background-image: url(../../images/bg5.jpg);
+  }
+  .carousel li:nth-child(6) span {
+    background-image: url(../../images/bg6.jpg);
+  }
 }
