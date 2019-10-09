@@ -48,7 +48,7 @@ const Homepage = () => {
           <div
             className="row"
             style={{
-              textAlign: "left",
+              textAlign: "right",
             }}
           >
             <p>QUALITY ASSURANCE</p>
