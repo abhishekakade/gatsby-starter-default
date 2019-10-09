@@ -43,7 +43,7 @@ const Contact = () => {
           <form
             action="mailto:info@saiindiagypsum.com"
             // action="mailto:abhishekakade@gmail.com"
-            method="get"
+            method="post"
             encType="text/plain"
           >
             <h3>Contact Us</h3>

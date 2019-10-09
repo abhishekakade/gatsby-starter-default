@@ -140,9 +140,10 @@ const Navbar = ({ siteName }) => {
             id="facebook"
             style={{
               color: "#addfff",
-              // background: "#dddddd",
               margin: 0,
               padding: 0,
+              width: "2rem",
+              height: "2rem",
             }}
             size="2rem"
             title="Sai India Gypsum on Facebook"
@@ -157,6 +158,10 @@ const Navbar = ({ siteName }) => {
             id="linkedin"
             style={{
               color: "#addfff",
+              margin: 0,
+              padding: 0,
+              width: "2rem",
+              height: "2rem",
             }}
             size="2rem"
             title="Sai India Gypsum on LinkedIn"

@@ -25,7 +25,7 @@
   opacity: 0;
   z-index: 0;
   filter: brightness(30%);
-  animation: imageAnimation 36s linear infinite 0s;
+  animation: imageAnimation 24s linear infinite 0s;
 }
 
 .carousel li .image-text {
@@ -35,17 +35,14 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -25%);
-  /* border: 1px solid rgba(250, 250, 250, 0.5); */
-  /* border: 1px solid rgba(0, 0, 0, 0.5); */
 
   padding: 2rem;
   opacity: 0;
   letter-spacing: 1px;
   color: rgba(250, 250, 250, 0.75);
-  /* height: 50%; */
   height: auto;
   background: rgba(0, 0, 0, 0.3);
-  animation: titleAnimation 36s infinite 0s;
+  animation: titleAnimation 24s infinite 0s;
 }
 
 .carousel li .image-text .row p:nth-child(1) {
@@ -60,108 +57,30 @@
   font-size: 1.2rem;
 }
 
-.carousel li div span {
-  font-family: Arial, sans-serif;
-  font-size: 1.5rem;
-  padding: 0;
-  /* line-height: 50vh; */
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
+.carousel li span {
+  filter: hue-rotate(0deg) brightness(50%);
 }
 
 /* TODO: ADD MEDIA QUERIES AND LOW RES IMAGES FOR DIFFERENT SCREEN SIZES */
 
 .carousel li:nth-child(1) span {
-  background-image: url(../../images/bg1.jpg);
-  filter: hue-rotate(0deg) brightness(50%);
+  background-image: url(../../images/bg9.jpg);
 }
 .carousel li:nth-child(2) span {
   background-image: url(../../images/bg2.jpg);
-  filter: hue-rotate(0deg) brightness(50%);
-  animation-delay: 6s;
+  animation-delay: 8s;
 }
 .carousel li:nth-child(3) span {
   background-image: url(../../images/bg3.jpg);
-  filter: hue-rotate(0deg) brightness(50%);
-  animation-delay: 12s;
-}
-.carousel li:nth-child(4) span {
-  background-image: url(../../images/bg4.jpg);
-  filter: hue-rotate(0deg) brightness(50%);
-  animation-delay: 18s;
-}
-.carousel li:nth-child(5) span {
-  background-image: url(../../images/bg5.jpg);
-  filter: hue-rotate(0deg) brightness(50%);
-  animation-delay: 24s;
-}
-.carousel li:nth-child(6) span {
-  background-image: url(../../images/bg6.jpg);
-  filter: hue-rotate(0deg) brightness(50%);
-  animation-delay: 30s;
+  animation-delay: 16s;
 }
 
 .carousel li:nth-child(2) div {
-  animation-delay: 6s;
+  animation-delay: 8s;
 }
 .carousel li:nth-child(3) div {
-  animation-delay: 12s;
+  animation-delay: 16s;
 }
-.carousel li:nth-child(4) div {
-  animation-delay: 18s;
-}
-.carousel li:nth-child(5) div {
-  animation-delay: 24s;
-}
-.carousel li:nth-child(6) div {
-  animation-delay: 30s;
-}
-
-/* .row:nth-child(1) {
-  animation: slideTextRight infinite 6s;
-}
-.row:nth-child(2) {
-  animation: slideTextLeft infinite 6s;
-}
-.row:nth-child(3) {
-  animation: slideTextRight infinite 6s;
-}
-.row:nth-child(4) {
-  animation: slideTextLeft infinite 6s;
-}
-.row:nth-child(5) {
-  animation: slideTextRight infinite 6s;
-}
-.row:nth-child(6) {
-  animation: slideTextLeft infinite 6s;
-}
-
-@keyframes slideTextRight {
-  0% {
-    transform: translate(-45%, -25%);
-    opacity: 0.3 !important;
-  }
-
-  100% {
-    transform: translate(-50%, -25%);
-    opacity: 1 !important;
-  }
-}
-
-@keyframes slideTextLeft {
-  0% {
-    border: 1px solid red;
-    transform: translate(60%, -25%);
-    opacity: 0.3 !important;
-  }
-
-  100% {
-    transform: translate(-50%, -25%);
-    opacity: 1 !important;
-  }
-} */
 
 @keyframes imageAnimation {
   0% {
@@ -172,11 +91,10 @@
     opacity: 1;
     animation-timing-function: ease-out;
   }
-  17% {
-    overflow: hidden;
+  35% {
     opacity: 1;
   }
-  23% {
+  41% {
     opacity: 0;
     transform: scale(1.08, 1.08);
   }
@@ -194,11 +112,10 @@
     opacity: 1;
     animation-timing-function: ease-out;
   }
-  17% {
+  33% {
     opacity: 1;
-    /* transform: scale(1.01, 1.01); */
   }
-  19% {
+  37% {
     opacity: 0;
   }
   100% {
@@ -230,7 +147,7 @@
   /* 768px wide images for carousel */
 
   .carousel li:nth-child(1) span {
-    background-image: url(../../images/bg1-768.jpg);
+    background-image: url(../../images/bg9-768.jpg);
   }
   .carousel li:nth-child(2) span {
     background-image: url(../../images/bg2-768.jpg);
@@ -238,22 +155,13 @@
   .carousel li:nth-child(3) span {
     background-image: url(../../images/bg3-768.jpg);
   }
-  .carousel li:nth-child(4) span {
-    background-image: url(../../images/bg4-768.jpg);
-  }
-  .carousel li:nth-child(5) span {
-    background-image: url(../../images/bg5-768.jpg);
-  }
-  .carousel li:nth-child(6) span {
-    background-image: url(../../images/bg6-768.jpg);
-  }
 }
 
 @media screen and (max-width: 1280px) {
   /* 1280px wide images for carousel */
 
   .carousel li:nth-child(1) span {
-    background-image: url(../../images/bg1-1280.jpg);
+    background-image: url(../../images/bg9-1280.jpg);
   }
   .carousel li:nth-child(2) span {
     background-image: url(../../images/bg2-1280.jpg);
@@ -261,36 +169,18 @@
   .carousel li:nth-child(3) span {
     background-image: url(../../images/bg3-1280.jpg);
   }
-  .carousel li:nth-child(4) span {
-    background-image: url(../../images/bg4-1280.jpg);
-  }
-  .carousel li:nth-child(5) span {
-    background-image: url(../../images/bg5-1280.jpg);
-  }
-  .carousel li:nth-child(6) span {
-    background-image: url(../../images/bg6-1280.jpg);
-  }
 }
 
 @media screen and (min-width: 1281px) {
   /* 1280px wide images for carousel */
 
   .carousel li:nth-child(1) span {
-    background-image: url(../../images/bg1.jpg);
+    background-image: url(../../images/bg9.jpg);
   }
   .carousel li:nth-child(2) span {
     background-image: url(../../images/bg2.jpg);
   }
   .carousel li:nth-child(3) span {
     background-image: url(../../images/bg3.jpg);
-  }
-  .carousel li:nth-child(4) span {
-    background-image: url(../../images/bg4.jpg);
-  }
-  .carousel li:nth-child(5) span {
-    background-image: url(../../images/bg5.jpg);
-  }
-  .carousel li:nth-child(6) span {
-    background-image: url(../../images/bg6.jpg);
   }
 }

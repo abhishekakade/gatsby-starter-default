@@ -2,12 +2,6 @@ import React from "react"
 import "./Homepage.css"
 const Homepage = () => {
   return (
-    // <div
-    //   style={{
-    //     margin: 0,
-    //     padding: 0,
-    //   }}
-    // >
     <ul
       className="carousel"
       style={{
@@ -22,7 +16,7 @@ const Homepage = () => {
           <div
             className="row"
             style={{
-              textAlign: "left",
+              textAlign: "right",
             }}
           >
             <p>SAI INDIA GYPSUM</p>
@@ -43,8 +37,7 @@ const Homepage = () => {
           >
             <p>COMPREHENSIVE RANGE</p>
             <p>
-              We provide a comprehensive range of Gypsum products to suit all
-              your needs.
+              A wide range of Gypsum products available to suit all your needs.
             </p>
           </div>
         </div>
@@ -60,12 +53,14 @@ const Homepage = () => {
           >
             <p>QUALITY ASSURANCE</p>
             <p>
-              We formulate our products using high-grade raw material procured
-              from trustworthy vendors.
+              Products formulated using high-grade raw material procured from
+              trustworthy vendors.
             </p>
           </div>
         </div>
       </li>
+
+      {/*
       <li>
         <span>Image 04</span>
         <div className="image-text">
@@ -116,9 +111,8 @@ const Homepage = () => {
             </p>
           </div>
         </div>
-      </li>
+      </li> */}
     </ul>
-    // </div>
   )
 }
 
