@@ -2,14 +2,12 @@ import React from "react"
 import "./About.css"
 // import { graphql } from "gatsby"
 // import Img from "gatsby-image"
-import constructionImg from "../../images/bg10.jpg"
+// import constructionImg from "../../images/bg10.jpg"
+import constructionImg480 from "../../images/bg10-480.jpg"
 import constructionImg768 from "../../images/bg10-768.jpg"
-import constructionImg1280 from "../../images/bg10-1280.jpg"
+// import constructionImg1280 from "../../images/bg10-1280.jpg"
 
 const About = () => {
-  // console.log(this.props)
-  // const imgData = this.props
-
   return (
     <section
       id="about"
@@ -21,10 +19,10 @@ const About = () => {
       <div className="container-div">
         {/* <Img fluid={imgData.data.file.childImageSharp.fixed} /> */}
         <picture>
+          <source srcSet={constructionImg480} media="(max-width: 480px)" />
           <source srcSet={constructionImg768} media="(max-width: 768px)" />
-          <source srcSet={constructionImg1280} media="(max-width: 1280px)" />
           <img
-            src={constructionImg}
+            src={constructionImg768}
             alt="Sai India Gypsum"
             id="about-page-img"
             style={{
@@ -51,11 +49,12 @@ const About = () => {
           Established in the year <strong>2002</strong>, we,
           <strong> 'Sai India Gypsum Products Private Limited'</strong>, are a
           leading manufacturer, supplier, and exporter of a comprehensive range
-          of Gypsum Products. We formulate our products using the high-grade raw
-          material, which is procured from trustworthy vendors of the market.
-          Due to their durability, accurate composition, and elegant finish, our
-          products are superior and are extensively used for various industrial
-          and residential applications.
+          of Gypsum Products.
+          <br /> We formulate our products using the high-grade raw material,
+          which is procured from trustworthy vendors of the market. Due to their
+          durability, accurate composition, and elegant finish, our products are
+          superior and are extensively used for various industrial and
+          residential applications.
         </p>
       </div>
     </section>

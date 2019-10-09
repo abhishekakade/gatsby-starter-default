@@ -26,13 +26,13 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-2e4b1bbc556663dd3fef.js"
+    "url": "webpack-runtime-d9de97c6c18b8df21798.js"
   },
   {
-    "url": "commons.39822b6fa61263585a16.css"
+    "url": "commons.a7b952cfec671ac87235.css"
   },
   {
-    "url": "commons-26e34ab19aa5b4f2a82f.js"
+    "url": "commons-2c40d2bbe1d15d4551ff.js"
   },
   {
     "url": "app-9fa22e1d8616498db0e9.js"
@@ -42,11 +42,23 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "8b3d828cc82b5a075374bc16b52f2b96"
+    "revision": "14d779adf8f9c8b0066b97fe53ee3da1"
+  },
+  {
+    "url": "google-fonts/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2",
+    "revision": "b4d2c4c39853ee244272c04999b230ba"
+  },
+  {
+    "url": "google-fonts/s/raleway/v14/1Ptrg8zYS_SKggPNwIouWqZPAA.woff2",
+    "revision": "7222f1fa6b1ba32e4010040ff1c5ee7f"
+  },
+  {
+    "url": "google-fonts/s/raleway/v14/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "revision": "43c849ea0258ce0d23a480e840881f16"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "d30f5e2453a57afcee1575025b8af2e0"
+    "revision": "71d7d5a64626bf23085167ff51692d62"
   },
   {
     "url": "manifest.webmanifest",
