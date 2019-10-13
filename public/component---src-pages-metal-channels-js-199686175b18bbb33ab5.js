@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{226:function(e,a,n){"use strict";n.r(a);var t=n(0),c=n.n(t),l=n(218);n(219);a.default=function(){return c.a.createElement(l.a,null,c.a.createElement("article",{className:"product-details skip-nav"},c.a.createElement("h1",null,"d")))}}}]);
+//# sourceMappingURL=component---src-pages-metal-channels-js-199686175b18bbb33ab5.js.map
