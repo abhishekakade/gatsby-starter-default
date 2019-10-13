@@ -1,13 +1,47 @@
-/* @import url("https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap"); */
+/* raleway 800
+https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIouWqZPAA.woff2
+*/
 
-/* @font-face {
-  font-family: "lovelo";
-  src: url("../../public/lovelo.woff2") format("woff2");
+/* raleway 400
+https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ITw.woff2
+*/
+
+/* lato
+https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2
+*/
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato Regular"), local("Lato-Regular"),
+    url("./../fonts/Lato-Regular.woff2") format("woff2"),
+    url("./../fonts/Lato-Regular-woff.woff") format("woff"),
+    url("https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2")
+      format("woff2");
   font-weight: normal;
   font-style: normal;
-} */
+}
 
-/* @import url("https://fonts.googleapis.com/css?family=Lato|Raleway:400,800&display=swap"); */
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"), local("Raleway-Regular"),
+    url("./../fonts/Raleway-Regular.woff2") format("woff2"),
+    url("./../fonts/Raleway-Regular-woff.woff") format("woff"),
+    url("https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ITw.woff2")
+      format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway Bold"), local("Raleway-Bold"),
+    url("./../fonts/Raleway-Bold.woff2") format("woff2"),
+    url("./../fonts/Raleway-Bold-woff.woff") format("woff"),
+    url("https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIouWqZPAA.woff2")
+      format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
 
 html {
   font-family: "Lucida Sans", "Helvetica", sans-serif;

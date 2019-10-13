@@ -4,6 +4,36 @@
   box-sizing: border-box;
 }
 
+.str2 {
+  stroke: #fefefe;
+  stroke-width: 2.99935;
+  stroke-linejoin: bevel;
+}
+
+.fil6 {
+  fill: none;
+}
+
+.fil5 {
+  fill: #fefefe;
+}
+.fil2 {
+  fill: #28599e;
+}
+.fil1 {
+  fill: #87cefa;
+}
+.fil4 {
+  fill: #315192;
+}
+.fil3 {
+  fill: #fefefe;
+  fill-rule: nonzero;
+}
+.fillCompanyName {
+  fill: #fefefe;
+}
+
 .display-flex {
   display: flex !important;
   flex-direction: column;

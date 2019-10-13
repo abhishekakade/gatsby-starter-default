@@ -69,6 +69,12 @@ skip-nav = adds top-padding of 4rem to skip navbar
   background: aliceblue;
   /* box-shadow: 0px 3px 10px 1px midnightblue; */
   box-shadow: 2px 3px 8px 1px #9898bb;
+  background-image: url("../../images/box-bg.svg");
+  /* background-position: right; */
+  background-position: bottom;
+  /* background-size: cover; */
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 #products-list li:hover {

@@ -64,7 +64,7 @@
 /* TODO: ADD MEDIA QUERIES AND LOW RES IMAGES FOR DIFFERENT SCREEN SIZES */
 
 .carousel li:nth-child(1) span {
-  background-image: url(../../images/bg9.jpg);
+  background-image: url(../../images/bg1.jpg);
 }
 .carousel li:nth-child(2) span {
   background-image: url(../../images/bg2.jpg);
@@ -147,7 +147,7 @@
   /* 768px wide images for carousel */
 
   .carousel li:nth-child(1) span {
-    background-image: url(../../images/bg9-768.jpg);
+    background-image: url(../../images/bg1-768.jpg);
   }
   .carousel li:nth-child(2) span {
     background-image: url(../../images/bg2-768.jpg);
@@ -161,7 +161,7 @@
   /* 1280px wide images for carousel */
 
   .carousel li:nth-child(1) span {
-    background-image: url(../../images/bg9-1280.jpg);
+    background-image: url(../../images/bg1-1280.jpg);
   }
   .carousel li:nth-child(2) span {
     background-image: url(../../images/bg2-1280.jpg);
@@ -175,7 +175,7 @@
   /* 1280px wide images for carousel */
 
   .carousel li:nth-child(1) span {
-    background-image: url(../../images/bg9.jpg);
+    background-image: url(../../images/bg1.jpg);
   }
   .carousel li:nth-child(2) span {
     background-image: url(../../images/bg2.jpg);
