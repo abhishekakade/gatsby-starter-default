@@ -1,6 +1,6 @@
 {
   "main.js": "render-page.js",
   "main.js.map": "render-page.js.map",
-  "static/bg10-480.jpg": "static/bg10-480-d9870cb8fe826ce1e9b33d48745fe444.jpg",
-  "static/bg10-768.jpg": "static/bg10-768-21d17939c0310e947ecf654da20b6986.jpg"
+  "static/bg10-480.webp": "static/bg10-480-1df56dede8634bbbe996c383d7be5da1.webp",
+  "static/bg10-768.webp": "static/bg10-768-119a19ecbd0bddc96e74f4fcb0653fa3.webp"
 }

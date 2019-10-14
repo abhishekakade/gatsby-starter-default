@@ -2,10 +2,10 @@ import React from "react"
 import "./About.css"
 // import { graphql } from "gatsby"
 // import Img from "gatsby-image"
-// import constructionImg from "../../images/bg10.jpg"
-import constructionImg480 from "../../images/bg10-480.jpg"
-import constructionImg768 from "../../images/bg10-768.jpg"
-// import constructionImg1280 from "../../images/bg10-1280.jpg"
+// import constructionImg from "../../images/bg10.webp"
+import constructionImg480 from "../../images/bg10-480.webp"
+import constructionImg768 from "../../images/bg10-768.webp"
+// import constructionImg1280 from "../../images/bg10-1280.webp"
 
 const About = () => {
   return (
@@ -65,7 +65,7 @@ export default About
 
 // export const query = graphql`
 //   query {
-//     file(relativePath: { eq: "bg10.jpg" }) {
+//     file(relativePath: { eq: "bg10.webp" }) {
 //       childImageSharp {
 //         # Specify the image processing specifications right in the query.
 //         # Makes it trivial to update as your page's design changes.

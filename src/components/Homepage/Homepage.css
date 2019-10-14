@@ -64,14 +64,14 @@
 /* TODO: ADD MEDIA QUERIES AND LOW RES IMAGES FOR DIFFERENT SCREEN SIZES */
 
 .carousel li:nth-child(1) span {
-  background-image: url(../../images/bg1.jpg);
+  background-image: url(../../images/bg1.webp);
 }
 .carousel li:nth-child(2) span {
-  background-image: url(../../images/bg2.jpg);
+  background-image: url(../../images/bg2.webp);
   animation-delay: 8s;
 }
 .carousel li:nth-child(3) span {
-  background-image: url(../../images/bg3.jpg);
+  background-image: url(../../images/bg3.webp);
   animation-delay: 16s;
 }
 
@@ -147,13 +147,13 @@
   /* 768px wide images for carousel */
 
   .carousel li:nth-child(1) span {
-    background-image: url(../../images/bg1-768.jpg);
+    background-image: url(../../images/bg1-768.webp);
   }
   .carousel li:nth-child(2) span {
-    background-image: url(../../images/bg2-768.jpg);
+    background-image: url(../../images/bg2-768.webp);
   }
   .carousel li:nth-child(3) span {
-    background-image: url(../../images/bg3-768.jpg);
+    background-image: url(../../images/bg3-768.webp);
   }
 }
 
@@ -161,13 +161,13 @@
   /* 1280px wide images for carousel */
 
   .carousel li:nth-child(1) span {
-    background-image: url(../../images/bg1-1280.jpg);
+    background-image: url(../../images/bg1-1280.webp);
   }
   .carousel li:nth-child(2) span {
-    background-image: url(../../images/bg2-1280.jpg);
+    background-image: url(../../images/bg2-1280.webp);
   }
   .carousel li:nth-child(3) span {
-    background-image: url(../../images/bg3-1280.jpg);
+    background-image: url(../../images/bg3-1280.webp);
   }
 }
 
@@ -175,12 +175,12 @@
   /* 1280px wide images for carousel */
 
   .carousel li:nth-child(1) span {
-    background-image: url(../../images/bg1.jpg);
+    background-image: url(../../images/bg1.webp);
   }
   .carousel li:nth-child(2) span {
-    background-image: url(../../images/bg2.jpg);
+    background-image: url(../../images/bg2.webp);
   }
   .carousel li:nth-child(3) span {
-    background-image: url(../../images/bg3.jpg);
+    background-image: url(../../images/bg3.webp);
   }
 }

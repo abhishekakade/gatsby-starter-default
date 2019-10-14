@@ -36,7 +36,7 @@ export default IndexPage
 
 // export const query = graphql`
 //   query {
-//     file(relativePath: { eq: "bg10.jpg" }) {
+//     file(relativePath: { eq: "bg10.webp" }) {
 //       childImageSharp {
 //         # Specify the image processing specifications right in the query.
 //         # Makes it trivial to update as your page's design changes.
