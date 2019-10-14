@@ -330,6 +330,9 @@ const Navbar = ({ siteName }) => {
           style={{
             fontFamily: "Raleway",
             fontWeight: "normal",
+            fontSize: "1.1rem",
+            margin: "auto",
+            padding: "0.5rem",
             display: "block",
             borderTop: "1px solid #dddddd",
             borderBottom: "1px solid #dddddd",
@@ -337,10 +340,7 @@ const Navbar = ({ siteName }) => {
             position: "absolute",
             left: 0,
             right: 0,
-            margin: "auto",
             bottom: "10%",
-            fontSize: "1.1rem",
-            padding: "0.5rem",
           }}
         >
           Sai India Gypsum

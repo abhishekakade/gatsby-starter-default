@@ -12,7 +12,6 @@ const Header = ({ siteTitle }) => (
     style={{
       background: "rgba(0, 70, 143, 0.95)",
       // background: "rgba(0, 70, 143, 0)",
-      padding: "1rem",
       padding: "0.5rem 1rem",
       position: "fixed",
       width: "100%",

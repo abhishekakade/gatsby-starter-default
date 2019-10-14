@@ -1,7 +1,7 @@
 import React from "react"
 import "./Contact.css"
-import { Link } from "gatsby"
-import { Phone } from "styled-icons/icomoon"
+// import { Link } from "gatsby"
+import { Phone, Whatsapp } from "styled-icons/icomoon"
 import { Send } from "styled-icons/boxicons-solid"
 import {
   Person,
@@ -39,6 +39,21 @@ const Contact = () => {
               {/* <span></span> */}
             </a>
           </p>
+
+          {/* WhatsApp Number */}
+
+          <p
+            style={{
+              padding: "0.5rem 1rem 1rem 1rem",
+            }}
+          >
+            <a className="contact-number" href="https://wa.me/919004899758">
+              <Whatsapp className="whatsapp" />
+              Text us on WhatsApp
+              {/* <span></span> */}
+            </a>
+          </p>
+
           <p>Or fill out this form below and we will get back to you.</p>
           <form
             action="mailto:info@saiindiagypsum.com"
