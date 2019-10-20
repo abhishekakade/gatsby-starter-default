@@ -14,27 +14,6 @@ module.exports = {
       },
     },
 
-    // {
-    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
-    //   options: {
-    //     fonts: [
-    //       {
-    //         family: "Lato",
-    //         unicodeRange: "U+000-5FF",
-    //         subsets: [`latin`],
-    //         fontDisplay: "swap",
-    //       },
-    //       {
-    //         family: "Raleway",
-    //         unicodeRange: "U+000-5FF",
-    //         subsets: [`latin`],
-    //         variants: [`400`, `800`],
-    //         fontDisplay: "swap",
-    //       },
-    //     ],
-    //   },
-    // },
-
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

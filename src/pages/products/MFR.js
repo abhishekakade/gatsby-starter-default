@@ -12,24 +12,32 @@ const MFR = () => {
           </h4>
 
           <p className="product-intro">
-            SIG MRFR is produced from high purity natural gypsum core being
-            sheeted in closely adhering paper liners. SIG MRFR is produced in
-            compliance to ASTM C1396 and EN 520 standards. SIG MRFR is tested
-            and certified by leading third party laboratories SIG MRFR is
-            produced in wide variety of length, width, thickness and edge types
-            to cover the entire spectrum of the requirement.
+            <strong>SIG MRFR</strong> is produced from high purity natural
+            gypsum core being sheeted in closely adhering paper liners.{" "}
+            <strong>SIG MRFR</strong> is produced in compliance to{" "}
+            <strong>ASTM C1396 and EN 520 standards. SIG MRFR</strong> is tested
+            and certified by leading third party laboratories. They are produced
+            in wide variety of length, width, thickness and edge types to cover
+            the entire spectrum of the requirement.
           </p>
           <p className="product-intro">
-            SIG MRFR combines the properties of SIG FR and SIG MR Plasterboard
+            <strong>SIG MRFR </strong>
+            <em className="text-highlighter">
+              combines the properties of SIG FR and SIG MR Plasterboard
+            </em>{" "}
             and thus can be used in wide range of applications where both of the
             properties are desired.
           </p>
           <p className="product-intro">
-            SIG MRFR is laminated with green paper on face and grey paper on the
-            back. It is high performance plasterboard designed to perform in the
-            interiors with high humidity and high requirements for fire
-            resistance. It is designed for direct attachment by screws, nails or
-            adhesive to wood or metal framing and even existing surfaces.
+            <strong>SIG MRFR </strong>
+            is laminated with green paper on face and grey paper on the back. It
+            is{" "}
+            <em className="text-highlighter">
+              high performance plasterboard designed to perform in the interiors
+              with high humidity and high requirements for fire resistance.
+            </em>{" "}
+            It is designed for direct attachment by screws, nails or adhesive to
+            wood or metal framing and even existing surfaces.
           </p>
         </section>
 

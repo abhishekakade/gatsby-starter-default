@@ -12,24 +12,32 @@ const MoistureResistant = () => {
           </h4>
 
           <p className="product-intro">
-            SIG MR is produced from high purity natural gypsum core being
-            sheeted in closely adhering paper liners. SIG MR is produced in
-            compliance to ASTM C1396 and EN 520 standards. SIG MR is tested and
-            certified by leading third party laboratories. SIG MR is produced in
-            wide variety of length, width, thickness and edge types to cover the
-            entire spectrum of the requirement.
+            <strong>SIG MR</strong> is produced from high purity natural gypsum
+            core being sheeted in closely adhering paper liners.
+            <strong> SIG MR</strong> is produced in compliance to
+            <strong> ASTM C1396 and EN 520 standards. SIG MR</strong> is tested
+            and certified by leading third party laboratories. They are produced
+            in wide variety of length, width, thickness and edge types to cover
+            the entire spectrum of the requirement.
           </p>
           <p className="product-intro">
-            SIG MR due to its formulation offers higher level of Moisture
-            resistance as compared to Regular Plasterboard and is thus used for
-            dry wall partitions where higher level of moisture exposure is
-            expected such as kitchen, washroom, swimming pool, sauna etc.
+            SIG MR due to its formulation offers higher level of moisture
+            resistance as compared to Regular Plasterboard and is thus{" "}
+            <em className="text-highlighter">
+              used for dry wall partitions where higher level of moisture
+              exposure is expected such as kitchens, washrooms, swimming pools,
+              sauna etc.
+            </em>
           </p>
           <p className="product-intro">
             SIG MR is laminated with green paper on face and grey paper on the
-            back. It is specially designed to perform in the interiors with high
-            humidity. It is designed for direct attachment by screws, nails or
-            adhesive to wood or metal framing and even existing surfaces.
+            back. It is
+            <em className="text-highlighter">
+              {" "}
+              specially designed to perform in the interiors with high humidity.
+            </em>{" "}
+            It is designed for direct attachment by screws, nails or adhesive to
+            wood or metal framing and even existing surfaces.
           </p>
         </section>
 

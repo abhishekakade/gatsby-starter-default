@@ -33,7 +33,7 @@ const Elite = () => {
             style={{
               textAlign: "center",
             }}
-            className="responsive table eli1"
+            className="table"
           >
             <thead className="thead-dark">
               <tr
@@ -48,7 +48,7 @@ const Elite = () => {
             <tbody>
               <tr>
                 <td>Colour</td>
-                <td>White</td>
+                <td>Off White</td>
               </tr>
               <tr>
                 <td>
@@ -68,7 +68,7 @@ const Elite = () => {
               </tr>
               <tr>
                 <td>Coverage</td>
-                <td>20-23 Sqft. Per 25 Kg Bag</td>
+                <td>20-22 Sqft. Per 25 Kg Bag</td>
               </tr>
 
               <tr>

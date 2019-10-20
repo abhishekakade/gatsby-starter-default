@@ -34,7 +34,7 @@ skip-nav = adds top-padding of 4rem to skip navbar
 }
 
 .skip-nav {
-  padding-top: 4.5rem;
+  padding-top: 5rem;
 }
 
 /* Products Main Page */
@@ -42,11 +42,6 @@ skip-nav = adds top-padding of 4rem to skip navbar
 #products-list {
   list-style: none;
   text-align: center;
-  /* display: grid;
-
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "GypsumBoards FiberCement Plasters" "Gypbond Tiles Metal"; */
 
   display: flex;
   flex-wrap: wrap;
@@ -77,7 +72,8 @@ skip-nav = adds top-padding of 4rem to skip navbar
   background-repeat: no-repeat;
 }
 
-#products-list li:hover {
+#products-list li:hover,
+.classification-list li:hover {
   transform: scale(1.05);
 }
 
@@ -136,6 +132,11 @@ skip-nav = adds top-padding of 4rem to skip navbar
 
 /* Main Product Classification Page */
 
+.text-highlighter {
+  background: lightskyblue;
+  color: #000000;
+}
+
 .product-page-header {
   font-size: 2rem;
   text-align: center;
@@ -151,16 +152,25 @@ skip-nav = adds top-padding of 4rem to skip navbar
 
 .classification-list {
   display: flex;
-  /* padding: 1rem; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding: 1rem;
 }
 
 .classification-list h4 {
+  padding: 1rem;
   color: royalblue;
+  font-size: 1.25rem;
+  margin: 0;
+  /* background: linear-gradient(to right, midnightblue, crimson);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 .classification-list li {
-  padding: 1rem;
-  border: 2px solid black;
+  /* padding: 1rem; */
+  /* border: 2px solid black; */
   border-radius: 5px;
   flex-grow: 1;
   width: 29%;
@@ -170,6 +180,49 @@ skip-nav = adds top-padding of 4rem to skip navbar
   background: aliceblue;
   /* box-shadow: 0px 3px 10px 1px midnightblue; */
   box-shadow: 2px 3px 8px 1px #9898bb;
+}
+
+.classification-list li .classification-product-intro {
+  padding: 0.5rem 1rem 50px 1rem;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.classification-list li a {
+  text-decoration: none;
+  color: royalblue;
+}
+
+.classification-list .classification-product-button {
+  font-size: 1.1rem;
+  position: absolute;
+  bottom: 0;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 48px;
+  display: block;
+  /* font-family: "Raleway", "Lucida Sans", "Helvetica", sans-serif; */
+  font-family: "Lato", "Lucida Sans", "Helvetica", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background: #000000;
+  /* background-color: linear-gradient(to bottom, black, #444); */
+  background: linear-gradient(to bottom, black, #444);
+  transition: 0.5s;
+  color: aliceblue;
+  color: #ddddff;
+  text-decoration: none !important;
+  border-radius: 0 0 5px 5px;
+  background: linear-gradient(to bottom, midnightblue, #004394);
+}
+
+.classification-product-button:hover {
+  cursor: pointer;
+  /* background-color: linear-gradient(to top, black, #444); */
+  /* background: linear-gradient(to top, black, #444); */
+  background: linear-gradient(to bottom, #004394, midnightblue);
+  text-decoration: underline;
 }
 
 /* Individual Product Pages */
@@ -208,7 +261,7 @@ skip-nav = adds top-padding of 4rem to skip navbar
   font-family: "Lato", "Lucida Sans", "Helvetica", sans-serif;
   font-weight: normal;
   color: #444444;
-  max-width: 70ch;
+  max-width: 65ch;
   text-align: center;
   margin: 1rem auto;
 }
@@ -253,6 +306,11 @@ tr:nth-child(even) {
   background-color: lightsteelblue;
 }
 
+table {
+  background: #ffffff;
+  text-align: center;
+}
+
 .fr1 tr,
 .imp1 tr,
 .mfr1 tr,
@@ -269,17 +327,47 @@ tr:nth-child(even) {
   }
 } */
 
-@media only screen and (max-width: 980px) {
+@media only screen and (min-width: 621px) and (max-width: 980px) {
   #products-list li {
     width: 45%;
+    max-width: 45%;
+    margin: 2%;
+  }
+
+  .classification-list li {
+    width: 45%;
+    max-width: 45%;
     margin: 2%;
   }
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (min-width: 481px) and (max-width: 620px) {
   #products-list li {
     width: 100%;
     margin: 1rem;
+  }
+
+  .classification-list li {
+    width: 100%;
+    max-width: 100%;
+    margin: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #products-list li {
+    width: 100%;
+    margin: 1rem;
+  }
+  .classification-list {
+    width: 100%;
+    padding: 0;
+  }
+
+  .classification-list li {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
   }
 }
 
@@ -345,13 +433,7 @@ tr:nth-child(even) {
     display: block;
   }
 
-  /* FiberCement Table 1 */
-  .fc1 td:nth-of-type(1):before {
-    content: "Attribute";
-  }
-  .fc1 td:nth-of-type(2):before {
-    content: "Benefit";
-  }
+  /* FiberCement Table 1 - only 2 cols don't need this */
 
   /* FiberCement Table 2 */
   .fc2 td:nth-of-type(1):before {
@@ -367,13 +449,7 @@ tr:nth-child(even) {
     content: "Length (mm)";
   }
 
-  /* FiberCement Table 3 */
-  .fc3 td:nth-of-type(1):before {
-    content: "Property";
-  }
-  .fc3 td:nth-of-type(2):before {
-    content: "Specification";
-  }
+  /* FiberCement Table 3 - only 2 cols don't need this */
 
   /* FireResistant Table 2 */
   .fr2 td:nth-of-type(1):before {
@@ -389,16 +465,8 @@ tr:nth-child(even) {
     content: "SIG – FR";
   }
 
-  /* Impact Resistant Table 2 */
+  /* Impact Resistant Table 1 */
   /* Is single column table so content not needed */
-
-  /* Impact Resistant Table 2 */
-  .imp2 td:nth-of-type(1):before {
-    content: "Property";
-  }
-  .imp2 td:nth-of-type(2):before {
-    content: "SIG - IR";
-  }
 
   /* MFR (Moisture Fire Resistant) Table 2 */
   .mfr2 td:nth-of-type(1):before {
@@ -455,27 +523,11 @@ tr:nth-child(even) {
   .pb2 td:nth-of-type(4):before {
     content: "SIG – Regular";
   }
-
-  /* Convex Table 1 */
-  .con1 td:nth-of-type(1):before {
-    content: "Property";
-  }
-  .con1 td:nth-of-type(2):before {
-    content: "Details";
-  }
-
-  /* Elite Table 1 */
-  .eli1 td:nth-of-type(1):before {
-    content: "Property";
-  }
-  .eli1 td:nth-of-type(2):before {
-    content: "Details";
-  }
 }
 
 @media only screen and (max-width: 768px) {
   .skip-nav {
-    padding-top: 3rem;
+    padding-top: 4.5rem;
   }
 
   .product-page-header {

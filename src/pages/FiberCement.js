@@ -4,7 +4,6 @@ import "../components/Products/Products.css"
 
 import Layout from "../components/layout"
 // import SEO from "../../components/seo"
-// import "../../../../public/bootstrap.min.css"
 
 import { CheckSquare } from "styled-icons/fa-solid"
 const FiberCement = () => {
@@ -14,66 +13,112 @@ const FiberCement = () => {
         <section className="container-div">
           <h4 className="product-title">SIG - Fiber Cement Boards</h4>
           <p className="product-intro">
-            Fiber Cement Boards are made from a mix of cement, cellulose fiber
-            and fire resistant fillers on Hatschek machines. The products having
-            excellent resistance against fire, termite and moisture makes it
-            ideal material for varying applications.
+            <strong>SIG - Fiber Cement Boards </strong>
+            are made from a mix of cement, cellulose fiber and fire resistant
+            fillers on Hatschek machines.
+            <strong> SIG - Fiber Cement Boards </strong>have an{" "}
+            <em className="text-highlighter">
+              excellent resistance against fire, termite and moisture which
+              makes them an ideal material for varying applications.
+            </em>
+          </p>
+          <p className="product-intro">
+            <strong>SIG - Fiber Cement Boards </strong>can be{" "}
+            <em className="text-highlighter">
+              used in historical renovations, where other cladding materials are
+              not allowed.
+            </em>{" "}
+            They are also{" "}
+            <em className="text-highlighter">environment friendly</em> as they
+            are made from natural cellulose fibers and are completely non
+            asbestos.
           </p>
         </section>
 
         <section className="container-div">
-          <h5 className="product-subtitle">Advantages</h5>
-          <ul className="list-group">
-            <li className="list-group-item">
-              <CheckSquare className="checksquare" size="1rem" />
-              Fire and Moisture Resistant
-            </li>
-            <li className="list-group-item">
-              <CheckSquare className="checksquare" size="1rem" />
-              Doesn't warp or fade
-            </li>
-            <li className="list-group-item">
-              <CheckSquare className="checksquare" size="1rem" />
-              Withstands ultraviolet rays and is impenetrable by insects and
-              birds
-            </li>
-            <li className="list-group-item">
-              <CheckSquare className="checksquare" size="1rem" />
-              It doesn't dent or bump under direct impact and will not become
-              brittle in cold temperatures
-            </li>
-            <li className="list-group-item">
-              <CheckSquare className="checksquare" size="1rem" />
-              Fiber cement boards can be used in historical renovations, where
-              other cladding materials are not allowed
-            </li>
-            <li className="list-group-item">
-              <CheckSquare className="checksquare" size="1rem" />
-              Because of their long life, fiber cement boards also cut down on
-              repair and maintenance costs
-            </li>
-            <li className="list-group-item">
-              <CheckSquare className="checksquare" size="1rem" />
-              Environment Friendly as Fiber cement boards are made from natural
-              cellulose fibers and are completely non asbestos
-            </li>
-            <li className="list-group-item">
-              <CheckSquare className="checksquare" size="1rem" />
-              This product does not contain asbestos, formaldehydes or harmful
-              chemicals
-            </li>
-          </ul>
+          <div
+            className="list-container"
+            style={{
+              display: "block",
+              margin: "auto",
+              width: "fit-content",
+              border: "2px solid black",
+              borderRadius: "5px",
+            }}
+          >
+            <h5
+              className="product-subtitle"
+              style={{
+                background: "black",
+                color: "#dddddd",
+                margin: 0,
+                padding: "0.5rem",
+              }}
+            >
+              Advantages
+            </h5>
+            <ul className="list-group">
+              <li className="list-group-item">
+                <CheckSquare className="checksquare" size="1rem" />
+                Fire and Moisture Resistant
+              </li>
+              <li className="list-group-item">
+                <CheckSquare className="checksquare" size="1rem" />
+                Doesn't warp or fade
+              </li>
+
+              {/* <em className="text-highlighter"> */}
+              <li className="list-group-item">
+                <CheckSquare className="checksquare" size="1rem" />
+                Withstands ultraviolet rays
+              </li>
+              <li className="list-group-item">
+                <CheckSquare className="checksquare" size="1rem" />
+                Impenetrable by insects and birds
+              </li>
+              <li className="list-group-item">
+                <CheckSquare className="checksquare" size="1rem" />
+                Doesn't dent or bump under direct impact
+              </li>
+              <li className="list-group-item">
+                <CheckSquare className="checksquare" size="1rem" />
+                Won't get brittle in cold temperatures
+              </li>
+
+              <li className="list-group-item">
+                <CheckSquare className="checksquare" size="1rem" />
+                Long life cuts down repair & maintenance costs
+              </li>
+
+              <li className="list-group-item">
+                <CheckSquare className="checksquare" size="1rem" />
+                No asbestos, formaldehydes or harmful chemicals
+              </li>
+            </ul>
+          </div>
         </section>
 
         <section className="container-div">
           <h5 className="product-subtitle">Application</h5>
-          <p>
+          <p
+            style={{
+              maxWidth: "60ch",
+              margin: "auto",
+              textAlign: "center",
+            }}
+          >
             Fiber Cement Boards are mostly used for Internal and External Wall
             cladding, wall partitions, mezzanine flooring, Roof Underlay, False
             Ceiling, Office cubical partitions, Fixed Wardrobes, Kitchen
             cabinets, Duct Covering.
           </p>
-          <p>
+          <p
+            style={{
+              maxWidth: "60ch",
+              margin: "auto",
+              textAlign: "center",
+            }}
+          >
             Fiber cement boards are a good alternative for Plywood for better
             fire protection and longer durability
           </p>
@@ -81,15 +126,33 @@ const FiberCement = () => {
 
         <section className="container-div">
           <h5 className="product-subtitle">Board Performance</h5>
-          <p>
+          <p
+            style={{
+              maxWidth: "60ch",
+              margin: "auto",
+              textAlign: "center",
+            }}
+          >
             Thermal Conductivity: SIG Fiber Cement Boards are test for 0.21 W/mK
             for 6mm thick board.
           </p>
-          <p>
+          <p
+            style={{
+              maxWidth: "60ch",
+              margin: "auto",
+              textAlign: "center",
+            }}
+          >
             Effect of Temperature: SIG Fiber Cement Boards are not recommended
             to be stored in temperature above 500 for prolonged period.
           </p>
-          <p>
+          <p
+            style={{
+              maxWidth: "60ch",
+              margin: "auto",
+              textAlign: "center",
+            }}
+          >
             Effect of condensation: SIG Fiber Cement Boards are vapor permeable.
             If vapor condenses on the surface, the board will retain its
             strength.
@@ -98,7 +161,7 @@ const FiberCement = () => {
 
         <section className="table-section">
           <h5 className="product-subtitle">Product Attributes and Benefits</h5>
-          <table className="responsive table fc1">
+          <table className="table">
             <thead className="thead-dark">
               <tr>
                 <th scope="col">Attributes</th>
@@ -208,7 +271,7 @@ const FiberCement = () => {
         <section className="table-section">
           <h5 className="product-subtitle">Properties</h5>
 
-          <table className="responsive table fc3">
+          <table className="table">
             <thead className="thead-dark">
               <tr>
                 <th scope="col">Properties</th>

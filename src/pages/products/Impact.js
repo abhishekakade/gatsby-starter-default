@@ -10,26 +10,38 @@ const Impact = () => {
           <h4 className="product-title">SIG - Impact Resistant Boards</h4>
 
           <p className="product-intro">
-            SIG Impact Resistant Board is produced from high purity natural
-            gypsum core being sheeted in closely adhering paper liners. SIG IR
-            is produced in compliance to ASTM C1396 and EN 520 standards and
-            tested in accordance to ASTM C1629. SIG IR is tested and certified
-            by leading third party laboratories. SIG IR is produced in wide
-            variety of length, width, thickness and edge types to cover the
-            entire spectrum of the requirement.
+            <strong>SIG Impact Resistant Board </strong>
+            is produced from high purity natural gypsum core being sheeted in
+            closely adhering paper liners. <strong>SIG IR </strong>
+            is produced in compliance to{" "}
+            <strong>
+              ASTM C1396 and EN 520 standards and tested in accordance to ASTM
+              C1629. SIG IR
+            </strong>{" "}
+            is tested and certified by leading third party laboratories. They
+            are produced in wide variety of length, width, thickness and edge
+            types to cover the entire spectrum of the requirement.
           </p>
 
           <p className="product-intro">
-            SIG IR boards have high density gypsum core with glass fibers and
-            special additives in strong paper liners to provide high impact
-            rating. SIG IR is used in areas subject to crowd pressure and impact
-            damage such as corridors and circulation areas in residencies,
-            hospitals, educational institutions, airports, etc.
+            <strong>SIG IR </strong>
+            boards have{" "}
+            <em className="text-highlighter">
+              high density gypsum core with glass fibers and special additives
+              in strong paper liners to provide high impact rating.
+            </em>
+            <strong> SIG IR </strong>
+            is used in areas subject to crowd pressure and impact damage such as{" "}
+            <em className="text-highlighter">
+              corridors and circulation areas in residencies, hospitals,
+              educational institutions, airports, etc.
+            </em>
           </p>
           <p className="product-intro">
-            SIG IR is laminated with yellow paper lining on board face and grey
-            paper on the back. It is high performance special plasterboard
-            designed for systems for high impact resistance.
+            <strong>SIG IR </strong>
+            is laminated with yellow paper lining on board face and grey paper
+            on the back. It is high performance special plasterboard designed
+            for systems for high impact resistance.
           </p>
         </section>
 
@@ -101,7 +113,7 @@ const Impact = () => {
             style={{
               textAlign: "center",
             }}
-            className="responsive table imp2"
+            className="table"
           >
             <caption>Properties (Per 12.5mm)</caption>
             <thead className="thead-dark">

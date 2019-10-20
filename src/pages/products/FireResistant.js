@@ -10,24 +10,30 @@ const FireResistant = () => {
           <h4 className="product-title">SIG - Fire Resistant Gypsum Boards</h4>
 
           <p className="product-intro">
-            SIG Fire Resistant Plasterboard is produced from high purity natural
-            gypsum core being sheeted in closely adhering paper liners. SIG FR
-            is produced in compliance to ASTM C1396 and EN 520 standards. SIG FR
-            due to its formulation offers higher level of Fire resistance as
-            compared to Regular Plasterboard and is thus used for dry wall
-            partitions where such fire characteristics are specifically
-            requested. It is to be noted that Fire rating of the drywall
-            partition depends on the construction of the overall drywall system
-            and thus great care needs to be taken to ensure that desired ratings
-            are achieved.
+            <strong>SIG Fire Resistant Plasterboard</strong> is produced from
+            high purity natural gypsum core being sheeted in closely adhering
+            paper liners. <strong>SIG FR</strong> is produced in compliance to
+            <strong> ASTM C1396 and EN 520 standards. SIG FR</strong> due to its
+            formulation offers higher level of fire resistance as compared to
+            Regular Plasterboard and is thus used for dry wall partitions where
+            such fire resistant characteristics are specifically requested.{" "}
+            <em>
+              It is to be noted that fire rating of the drywall partition
+              depends on the construction of the overall drywall system and thus
+              great care needs to be taken to ensure that desired ratings are
+              achieved.
+            </em>
           </p>
 
           <p className="product-intro">
-            SIG Fire Resistant Board is laminated with pink paper on board face
-            & grey paper on the back. It is specially designed to be used for
-            systems with high requirements for fire resistance. It is designed
-            for direct attachment by screws, nails or adhesive to wood or metal
-            framing and even existing surfaces.
+            <strong>SIG Fire Resistant Plasterboard</strong> is laminated with
+            pink paper on board face and grey paper on the back. It is{" "}
+            <em className="text-highlighter">
+              specially designed to be used for systems with high requirements
+              for fire resistance.
+            </em>{" "}
+            It is designed for direct attachment by screws, nails or adhesive to
+            wood or metal framing and even existing surfaces.
           </p>
         </section>
 

@@ -7,38 +7,16 @@ const RegularBoards = () => {
     <Layout>
       <article className="product-details skip-nav">
         <section className="container-div">
-          <h4 className="product-title">SIG - PlasterBoards</h4>
-
-          <p className="product-intro">
-            <strong>SIG - Plasterboards</strong> are ultimate wall and ceiling
-            solutions for today's buildings, providing high levels of
-            performance in terms of
-            <em>
-              &nbsp; fire rating, acoustic insulation, thermal insulation,
-              moisture resistance and impact resistance.&nbsp;
-            </em>
-            Our Plasterboards are durable, easy-to-shape and cost-efficient, are
-            flexible and lightweight; the most practical way of construction in
-            today's and tomorrow's homes, offices, Hospitals and buildings.
-          </p>
-
-          <h5
-            className="product-title"
-            style={{
-              fontSize: "1.35rem",
-              color: "royalblue",
-            }}
-          >
-            Products Available in PlasterBoards -
-          </h5>
           <h4 className="product-title">SIG - Regular Boards</h4>
 
           <p className="product-intro">
             Covered with ivory cardboard on face side and grey cardboard on the
             back side with blue edge tape,
-            <strong>&nbsp;SIG Regular Gypsum Plasterboard</strong> is used as a
-            covering material for walls, ceilings, also in making partition
-            walls in new building construction or renovation work.
+            <strong> SIG Regular Gypsum Plasterboard</strong> is{" "}
+            <em className="text-highlighter">
+              used as a covering material for walls, ceilings, also in making
+              partition walls in new building construction or renovation work.
+            </em>
           </p>
           <p className="product-intro">
             It is designed for direct attachment by screws, nails or adhesive to

@@ -11,10 +11,15 @@ const Tiles = () => {
           <h4 className="product-title">SIG – Tiles</h4>
 
           <p className="product-intro">
-            <strong>SIG – Tiles</strong> are laminated with PVC Film on the Face
-            Side, Metalised Polyester Film on the backside. They are mainly used
-            in Offices, Hospitals, High Rise Buildings, Malls, etc. They provide
-            the standard light reflectance of more than 70%.
+            <strong>SIG – Tiles</strong> are laminated with&nbsp;
+            <em className="text-highlighter">PVC film</em> on the face
+            side,&nbsp;
+            <em className="text-highlighter">Metalised Polyester film</em> on
+            the backside. They are mainly used in Offices, Hospitals, High Rise
+            Buildings, Malls, etc. They provide the standard&nbsp;
+            <em className="text-highlighter">
+              light reflectance of more than 70%.
+            </em>
           </p>
         </section>
 

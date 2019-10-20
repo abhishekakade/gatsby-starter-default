@@ -30,7 +30,7 @@ const Convex = () => {
             style={{
               textAlign: "center",
             }}
-            className="responsive table con1"
+            className="table"
           >
             <thead className="thead-dark">
               <tr
@@ -61,7 +61,7 @@ const Convex = () => {
               </tr>
               <tr>
                 <td>Initial Setting Time</td>
-                <td>12-15 Mins.</td>
+                <td>6-10 Mins.</td>
               </tr>
               <tr>
                 <td>Coverage</td>

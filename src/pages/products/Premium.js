@@ -12,12 +12,11 @@ const Premium = () => {
           <p className="product-intro">
             Covered with ivory cardboard on face side and grey cardboard on the
             back side with Glass Fibers added in the boards,
-            <strong>&nbsp;SIG Premium Gypsum Plasterboard</strong> is
-            <em>
-              &nbsp;Stronger, More Fire Resistant, More Moisture Resistant
-              &nbsp;
+            <strong>&nbsp;SIG Premium Gypsum Plasterboard</strong> is&nbsp;
+            <em className="text-highlighter">
+              &nbsp;stronger, more fire resistant, more moisture resistant&nbsp;
             </em>
-            than other standard gypsum boards.
+            &nbsp;than other standard gypsum boards.
           </p>
 
           <p className="product-intro">
