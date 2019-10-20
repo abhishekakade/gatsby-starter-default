@@ -183,7 +183,7 @@ skip-nav = adds top-padding of 4rem to skip navbar
 }
 
 .classification-list li .classification-product-intro {
-  padding: 0.5rem 1rem 50px 1rem;
+  padding: 0 1rem 50px 1rem;
   font-size: 1.1rem;
   font-weight: normal;
 }
@@ -368,6 +368,7 @@ table {
     width: 100%;
     max-width: 100%;
     padding: 0;
+    margin: 1rem;
   }
 }
 

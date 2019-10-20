@@ -40,6 +40,7 @@ const Navbar = ({ siteName }) => {
 
           {/* <svg xmlns="http://www.w3.org/2000/svg" width="377.334" height="215.485" viewBox="0 0 3930 2244" shapeRendering="geometricPrecision" textRendering="geometricPrecision" imageRendering="optimizeQuality" fillRule="evenodd" clipRule="evenodd"> */}
           <svg
+            id="SVG-SIG"
             xmlns="http://www.w3.org/2000/svg"
             width="5rem"
             height="3rem"
