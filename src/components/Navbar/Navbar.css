@@ -64,6 +64,7 @@
 
   #sidebar-nav {
     transition: all 0.3s;
+    -moz-transition: all 0s;
     width: 0;
     visibility: hidden;
     display: none;
@@ -103,6 +104,7 @@ nav-toggle:focus {
     margin: auto 0 auto auto;
     transform: rotate(0deg);
     transition: 0.35s ease-in-out;
+    -moz-transition: 0s;
   }
 
   #nav-toggle:focus {
@@ -130,6 +132,7 @@ nav-toggle:focus {
     left: 0;
     transform: rotate(0deg);
     transition: 0.25s ease-in-out;
+    -moz-transition: 0s;
   }
 
   #nav-toggle .line:nth-child(1) {
@@ -170,6 +173,7 @@ nav-toggle:focus {
     align-items: center;
     justify-content: center;
     transition: all 0.3s;
+    -moz-transition: all 0s;
     text-align: center;
     margin: auto;
     position: absolute;
@@ -192,6 +196,7 @@ nav-toggle:focus {
     margin: 1rem;
     overflow: hidden;
     transition: color 1s;
+    -moz-transition: color 0s;
   }
 
   #sidebar-nav a:hover {

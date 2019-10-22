@@ -97,6 +97,7 @@
   41% {
     opacity: 0;
     transform: scale(1.08, 1.08);
+    -moz-transform: none;
   }
   100% {
     opacity: 0;
