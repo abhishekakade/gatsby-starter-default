@@ -101,14 +101,7 @@ nav-toggle:focus {
     padding: 0;
     z-index: 5;
     margin: auto 0 auto auto;
-
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-transition: 0.35s ease-in-out;
-    -moz-transition: 0.35s ease-in-out;
-    -o-transition: 0.35s ease-in-out;
     transition: 0.35s ease-in-out;
   }
 
@@ -135,13 +128,7 @@ nav-toggle:focus {
     border-radius: 10px;
     opacity: 1;
     left: 0;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-transition: 0.25s ease-in-out;
-    -moz-transition: 0.25s ease-in-out;
-    -o-transition: 0.25s ease-in-out;
     transition: 0.25s ease-in-out;
   }
 
@@ -157,9 +144,6 @@ nav-toggle:focus {
 
   #nav-toggle.animate-toggle .line:nth-child(1) {
     top: 8px;
-    -webkit-transform: rotate(135deg);
-    -moz-transform: rotate(135deg);
-    -o-transform: rotate(135deg);
     transform: rotate(135deg);
   }
   #nav-toggle.animate-toggle .line:nth-child(2) {
@@ -168,9 +152,6 @@ nav-toggle:focus {
   }
   #nav-toggle.animate-toggle .line:nth-child(3) {
     top: 8px;
-    -webkit-transform: rotate(-135deg);
-    -moz-transform: rotate(-135deg);
-    -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
   }
 

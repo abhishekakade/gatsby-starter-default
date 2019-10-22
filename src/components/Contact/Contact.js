@@ -36,28 +36,23 @@ const Contact = () => {
             <a className="contact-number" href="tel:+91-9004899758">
               <Phone className="phone" />
               +91-9004899758
-              {/* <span></span> */}
             </a>
           </p>
-
-          {/* WhatsApp Number */}
 
           <p
             style={{
               padding: "0.5rem 1rem 1rem 1rem",
             }}
           >
-            <a className="contact-number" href="https://wa.me/919004899758">
+            <a className="whatsapp-number" href="https://wa.me/919326897731">
               <Whatsapp className="whatsapp" />
               Text us on WhatsApp
-              {/* <span></span> */}
             </a>
           </p>
 
           <p>Or fill out this form below and we will get back to you.</p>
           <form
-            action="mailto:info@saiindiagypsum.com"
-            // action="mailto:abhishekakade@gmail.com"
+            action="mailto:info@saiindiagypsum.com&"
             method="post"
             encType="text/plain"
           >
@@ -109,11 +104,9 @@ const Contact = () => {
             Maharashtra, India. <br />
             <br />
             ​info@saiindiagypsum.com <br />
-            Tel: +91 9004899758
+            Tel: +91-9004899758
           </address>
-          {/* </div>
 
-        <div> */}
           <h3>Careers</h3>
           <p>
             To apply for a job with Sai India Gypsum, please send a cover letter
