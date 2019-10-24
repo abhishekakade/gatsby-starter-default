@@ -636,37 +636,47 @@ pre tt:after {
     padding-bottom: 0;
   }
 
-  #products-list {
+  #products-list,
+  .classification-list {
     color: #ccccff;
   }
-  #products-list li {
+  #products-list li,
+  .classification-list li {
     background-image: none !important;
     background: #1f1f3f !important;
     box-shadow: none !important;
   }
-  #products-list li .main-product-title {
-    color: #afafee;
-    color: #c8c8e4;
+  #products-list li .main-product-title,
+  .classification-list h4 {
+    color: #c8c8e4 !important;
   }
-  #products-list li p {
+  #products-list li p,
+  .classification-list li p {
     color: #b3b3cc;
   }
 
-  #products-list .main-product-button {
+  #products-list .main-product-button,
+  .classification-list .classification-product-button {
     box-sizing: border-box;
-    border: 1px solid black;
-    background: #33336b;
-    color: #d8d8e4;
+    border: 1px solid black !important;
+    background: #33336b !important;
+    color: #d8d8e4 !important;
   }
 
-  #products-list .main-product-button:hover {
-    background: #2f2fa5;
+  #products-list .main-product-button:hover,
+  .classification-list .classification-product-button:hover {
+    background: #2f2fa5 !important;
   }
 
   #about-page-intro,
   #products h3,
   #contact h3 {
     color: #9d9dbe;
+  }
+
+  #about-page-img {
+    border: 2px solid black !important;
+    filter: brightness(85%);
   }
 
   #contact p,
@@ -677,7 +687,7 @@ pre tt:after {
     color: dodgerblue;
   }
   #contact .whatsapp-number {
-    color: limegreen;
+    color: #4ead4e;
   }
   #contact form {
     background: #1f1f3f !important;
@@ -719,5 +729,58 @@ pre tt:after {
 
   #slider {
     background: linear-gradient(to right, #00002f, #082f5e, #00002f) !important;
+  }
+
+  /* for individual product pages */
+  .product-intro {
+    color: #9d9dbe !important;
+  }
+
+  /* tables */
+  /* table {
+    background: #1f1f3f !important;
+    border-collapse: collapse;
+    border: 2px solid #888888;
+  }
+
+  table tr:nth-child(even) {
+    background-color: #33336b !important;
+  }
+
+  table th {
+    background: midnightblue;
+  } */
+
+  table {
+    filter: invert(100%) hue-rotate(200deg) !important;
+    color: #373c5e !important;
+    border: none !important;
+  }
+
+  table caption {
+    color: #aaaacc !important;
+  }
+
+  table th {
+    color: #111111 !important;
+  }
+
+  table tr,
+  table th,
+  table td {
+    border: 2px solid #777777 !important;
+  }
+
+  .checksquare,
+  .plussquare {
+    color: #ccccff !important;
+  }
+
+  .list-container {
+    border: 2px solid #ccccff !important;
+  }
+
+  .list-container .product-subtitle {
+    color: #ccccff !important;
   }
 }

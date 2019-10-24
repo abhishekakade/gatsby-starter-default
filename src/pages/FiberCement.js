@@ -41,7 +41,7 @@ const FiberCement = () => {
             style={{
               display: "block",
               margin: "auto",
-              width: "fit-content",
+              width: "max-content",
               border: "2px solid black",
               borderRadius: "5px",
             }}

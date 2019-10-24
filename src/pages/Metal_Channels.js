@@ -23,7 +23,7 @@ const Metal_Channels = () => {
               margin: "auto",
               border: "2px solid black",
               borderRadius: "5px",
-              width: "fit-content",
+              width: "max-content",
             }}
           >
             <h5

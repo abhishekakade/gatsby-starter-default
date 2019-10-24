@@ -19,7 +19,7 @@
   margin: 1rem 0;
   margin-left: 1rem;
   padding: 1.5rem 2rem;
-  width: fit-content;
+  width: max-content;
   border: 2px solid midnightblue;
   border-radius: 5px;
   background: #c2ecff;

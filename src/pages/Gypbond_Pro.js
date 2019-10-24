@@ -25,7 +25,7 @@ const Gypbond_Pro = () => {
           className="list-container"
           style={{
             display: "block",
-            width: "fit-content",
+            width: "max-content",
             margin: "auto",
             border: "2px solid black",
             borderRadius: "5px",
