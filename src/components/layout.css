@@ -630,8 +630,12 @@ pre tt:after {
     background: #00004b !important;
   }
 
+  h1 {
+    color: #ccccff !important;
+  }
+
   h2 {
-    color: #bbbbdd;
+    color: #bbbbdd !important;
     background: #00002f !important;
     padding-bottom: 0;
   }
@@ -746,15 +750,20 @@ pre tt:after {
   table tr:nth-child(even) {
     background-color: #33336b !important;
   }
-
+  
   table th {
     background: midnightblue;
   } */
 
   table {
-    filter: invert(100%) hue-rotate(200deg) !important;
-    color: #373c5e !important;
+    /* filter: invert(100%) hue-rotate(200deg) !important; */
+    /* color: #373c5e !important; */
     border: none !important;
+    color: #ccccff !important;
+    background: #1f1f3f !important;
+  }
+  table tr:nth-child(even) {
+    background-color: #33336b;
   }
 
   table caption {
@@ -762,13 +771,25 @@ pre tt:after {
   }
 
   table th {
-    color: #111111 !important;
+    background: #0f0f1f;
+    color: #ccccff !important;
   }
+
+  /* TODO: FIX MOBILE SCREEN DARK TABLES */
 
   table tr,
   table th,
   table td {
-    border: 2px solid #777777 !important;
+    border: 2px solid #777799 !important;
+  }
+
+  /* table.one-col tr:nth-child(even) {
+    background-color: #1f1f3f !important;
+  } */
+
+  .one-col tr,
+  .one-col tr:nth-child(even) {
+    background-color: #1f1f3f !important;
   }
 
   .checksquare,

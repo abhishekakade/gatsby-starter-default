@@ -29,7 +29,7 @@ const Premium = () => {
           <h5 className="product-subtitle">Details</h5>
 
           <table
-            className="table prem1"
+            className="table one-col"
             style={{
               textAlign: "center",
               background: "white",

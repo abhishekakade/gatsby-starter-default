@@ -45,7 +45,7 @@ const MoistureResistant = () => {
           <h5 className="product-subtitle">Details</h5>
 
           <table
-            className="table mr1"
+            className="table one-col"
             style={{
               textAlign: "center",
               background: "white",

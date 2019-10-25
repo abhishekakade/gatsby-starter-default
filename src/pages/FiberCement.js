@@ -46,17 +46,7 @@ const FiberCement = () => {
               borderRadius: "5px",
             }}
           >
-            <h5
-              className="product-subtitle"
-              style={{
-                background: "black",
-                color: "#dddddd",
-                margin: 0,
-                padding: "0.5rem",
-              }}
-            >
-              Advantages
-            </h5>
+            <h5 className="product-subtitle">Advantages</h5>
             <ul className="list-group">
               <li className="list-group-item">
                 <CheckSquare className="checksquare" size="1rem" />

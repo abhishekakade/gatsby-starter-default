@@ -28,7 +28,7 @@ const RegularBoards = () => {
           <h5 className="product-subtitle">Details</h5>
 
           <table
-            className="table pb1"
+            className="table one-col"
             style={{
               textAlign: "center",
               background: "white",

@@ -229,7 +229,6 @@ skip-nav = adds top-padding of 4rem to skip navbar
 
 .product-details {
   font-family: "Lato", "Lucida Sans", "Helvetica", sans-serif;
-  font-weight: bold;
 }
 
 .container-div {
@@ -254,6 +253,13 @@ skip-nav = adds top-padding of 4rem to skip navbar
   font-weight: bold;
 }
 
+.list-container .product-subtitle {
+  background: black;
+  color: #dddddd;
+  margin: 0;
+  padding: 0.5rem;
+}
+
 .product-intro {
   font-size: 1.3rem;
   line-height: 1.5;
@@ -272,7 +278,7 @@ skip-nav = adds top-padding of 4rem to skip navbar
 .list-group {
   list-style: none;
   font-size: 1.1rem;
-  font-weight: bold;
+  /* font-weight: bold; */
   padding: 1rem;
 }
 
@@ -310,12 +316,7 @@ table {
   text-align: center;
 }
 
-.fr1 tr,
-.imp1 tr,
-.mfr1 tr,
-.mr1 tr,
-.prem1 tr,
-.pb1 tr {
+.one-col tr {
   background-color: #ffffff;
 }
 
@@ -370,6 +371,11 @@ table {
     max-width: 100%;
     padding: 0;
     margin: 1rem;
+  }
+
+  .list-container {
+    width: 100% !important;
+    font-weight: normal !important;
   }
 }
 

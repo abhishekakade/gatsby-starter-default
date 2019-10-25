@@ -26,17 +26,7 @@ const Metal_Channels = () => {
               width: "max-content",
             }}
           >
-            <h5
-              className="product-subtitle"
-              style={{
-                background: "black",
-                color: "#dddddd",
-                margin: 0,
-                padding: "0.5rem 2rem",
-              }}
-            >
-              Channels
-            </h5>
+            <h5 className="product-subtitle">Channels</h5>
             <ul className="list-group">
               <li>
                 <CheckSquare className="checksquare" size="1rem" />
