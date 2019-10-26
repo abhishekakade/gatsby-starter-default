@@ -51,11 +51,24 @@ const Contact = () => {
           </p>
 
           <p>Or fill out this form below and we will get back to you.</p>
+
           <form
+            name="Sai India Gypsum - Contact Form"
+            method="POST"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
+            <input
+              type="hidden"
+              name="form-name"
+              value="Sai India Gypsum - Contact Form"
+            />
+
+            {/* <form
             action="mailto:info@saiindiagypsum.com&"
             method="post"
             encType="text/plain"
-          >
+          > */}
             <h3>Contact Us</h3>
             <label>
               <p>
