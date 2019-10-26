@@ -45,25 +45,25 @@ module.exports = {
         develop: false,
       },
     },
-    {
-      resolve: `gatsby-plugin-csp`,
-      options: {
-        disableOnDev: false,
-        reportOnly: false, // Changes header to Content-Security-Policy-Report-Only for csp testing purposes
-        mergeScriptHashes: true, // you can disable scripts sha256 hashes
-        mergeStyleHashes: true, // you can disable styles sha256 hashes
-        mergeDefaultDirectives: true,
-        directives: {
-          "script-src":
-            "'self' https://www.google-analytics.com https://ssl.google-analytics.com",
-          "style-src": "'self' 'unsafe-inline'",
-          "img-src": "'self' https://www.google-analytics.com",
-          "connect-src":
-            "http://localhost:8000/ https://nifty-northcutt-76b275.netlify.com https://www.google-analytics.com",
-          // you can add your directives or override defaults
-        },
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-csp`,
+    //   options: {
+    //     disableOnDev: false,
+    //     reportOnly: false, // Changes header to Content-Security-Policy-Report-Only for csp testing purposes
+    //     mergeScriptHashes: true, // you can disable scripts sha256 hashes
+    //     mergeStyleHashes: true, // you can disable styles sha256 hashes
+    //     mergeDefaultDirectives: true,
+    //     directives: {
+    //       "script-src":
+    //         "'self' https://www.google-analytics.com https://ssl.google-analytics.com",
+    //       "style-src": "'self' 'unsafe-inline'",
+    //       "img-src": "'self' https://www.google-analytics.com",
+    //       "connect-src":
+    //         "http://localhost:8000/ https://nifty-northcutt-76b275.netlify.com https://www.google-analytics.com",
+    //       // you can add your directives or override defaults
+    //     },
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
