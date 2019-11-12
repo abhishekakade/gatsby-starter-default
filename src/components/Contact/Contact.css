@@ -83,7 +83,7 @@
 
 #contact form input,
 #contact textarea {
-  width: 280px;
+  width: 100%;
   border: 1px solid midnightblue;
   padding: 0.25rem 0.5rem;
 }
@@ -192,6 +192,6 @@
 
   #contact form input,
   #contact textarea {
-    width: auto;
+    width: 100%;
   }
 }

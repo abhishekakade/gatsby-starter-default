@@ -1,8 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: `Sai India Gypsum`,
-    description: `Sai India Gypsum`,
-    author: `Abhishek K.`,
+    title: `Sai India Gypsum Products Private Limited`,
+    titleTemplate: "%s | Sai India Gypsum",
+    description: `Sai India Gypsum is a trusted supplier of best quality gypsum boards, gypsum powder, drywall & other gypsum products in India.`,
+    image: "/images/gatsby-icon.png",
+    url: "https://www.saiindiagypsum.com", // no trailing slash!
+    author: "Abhishek K.",
+    siteUrl: "https://www.saiindiagypsum.com",
+    owner: "Sai India Gypsum Private Limited",
+    socialLinks: {
+      facebook: "https://www.facebook.com/saiindiagypsum/",
+      linkedin:
+        "https://www.linkedin.com/in/sai-india-gypsum-pvt-ltd-9652a128/",
+    },
+    keywords: [""],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,7 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Sai India Gypsum",
+        name: "Sai India Gypsum Private Limited",
         short_name: "Sai India Gypsum",
         start_url: `/`,
         background_color: "#191970",
@@ -67,10 +78,44 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-150903998-1",
+        trackingId: "UA-145166770-1",
         head: false,
       },
     },
     "gatsby-plugin-netlify",
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/some-other-sitemap.xml`,
+        // Exclude specific pages or groups of pages using glob parameters
+        // See: https://github.com/isaacs/minimatch
+        // The example below will exclude the single `path/to/page` and all routes beginning with `category`
+        exclude: ["/404"],
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+  
+            allSitePage {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+        }`,
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges.map(edge => {
+            return {
+              url: site.siteMetadata.siteUrl + edge.node.path,
+              changefreq: `daily`,
+              priority: 0.7,
+            }
+          }),
+      },
+    },
   ],
 }

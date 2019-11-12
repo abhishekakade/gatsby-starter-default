@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import boxBg from "../../images/box-bg.svg"
+// import boxBg from "../../images/box-bg.svg"
 import "./Products.css"
 
 // import FiberCement from "./GypsumBoards/FiberCement"
@@ -49,9 +49,9 @@ const Products = () => {
 
           <li
             className="FiberCement"
-            style={{
-              backgroundImage: { boxBg },
-            }}
+            // style={{
+            //   backgroundImage: { boxBg },
+            // }}
           >
             <h4 className="main-product-title">Fiber Cement Boards</h4>
             <p className="main-product-summary">

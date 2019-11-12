@@ -3,12 +3,16 @@ import "../components/Products/Products.css"
 // import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-// import SEO from "../../components/seo"
+import SEO from "../components/seo"
 
 import { CheckSquare } from "styled-icons/fa-solid"
 const FiberCement = () => {
   return (
     <Layout>
+      <SEO
+        title="Fiber Cement Boards"
+        description="SIG - Fiber Cement Siding Boards"
+      />
       <article className="product-details skip-nav">
         <section className="container-div">
           <h4 className="product-title">SIG - Fiber Cement Boards</h4>

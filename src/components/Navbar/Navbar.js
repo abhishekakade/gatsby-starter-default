@@ -3,6 +3,7 @@ import "./Navbar.css"
 import { Link } from "gatsby"
 import { FacebookSquare } from "styled-icons/fa-brands"
 import { Linkedin } from "styled-icons/fa-brands"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 const Navbar = ({ siteName }) => {
   // const wideNav = document.getElementById("wide-nav")
@@ -290,7 +291,7 @@ const Navbar = ({ siteName }) => {
         >
           CONTACT
         </Link>
-        <a
+        <OutboundLink
           id="facebook-link"
           href="https://www.facebook.com/saiindiagypsum/"
           aria-label="Check out Sai India Gypsum on Facebook"
@@ -307,8 +308,8 @@ const Navbar = ({ siteName }) => {
             size="2rem"
             title="Sai India Gypsum on Facebook"
           />
-        </a>
-        <a
+        </OutboundLink>
+        <OutboundLink
           id="linkedin-link"
           href="https://www.linkedin.com/in/sai-india-gypsum-pvt-ltd-9652a128/"
           aria-label="Check out Sai India Gypsum on LinkedIn"
@@ -325,7 +326,7 @@ const Navbar = ({ siteName }) => {
             size="2rem"
             title="Sai India Gypsum on LinkedIn"
           />
-        </a>
+        </OutboundLink>
         <p
           style={{
             fontFamily: "Raleway",

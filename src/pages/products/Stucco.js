@@ -7,7 +7,6 @@ const Stucco = () => {
     <Layout>
       <article className="product-details skip-nav">
         <section className="container-div">
-          <h1 className="product-page-header">SIG - Plasters</h1>
           <h2 className="product-page-subtitle">SIG – Stucco </h2>
 
           <p className="product-intro">

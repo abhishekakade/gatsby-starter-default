@@ -1,10 +1,12 @@
 import React from "react"
 import Layout from "../../components/layout"
 import "../../components/Products/Products.css"
+import SEO from "../../components/seo"
 
 const Elite = () => {
   return (
     <Layout>
+      <SEO title="Elite Plaster" description="SIG - Elite Plaster" />
       <article className="product-details skip-nav">
         <section className="container-div">
           <h4 className="product-title">SIG – Elite</h4>

@@ -646,7 +646,7 @@ pre tt:after {
   }
   #products-list li,
   .classification-list li {
-    background-image: none !important;
+    background-image: none;
     background: #1f1f3f !important;
     box-shadow: none !important;
   }
@@ -741,19 +741,6 @@ pre tt:after {
   }
 
   /* tables */
-  /* table {
-    background: #1f1f3f !important;
-    border-collapse: collapse;
-    border: 2px solid #888888;
-  }
-
-  table tr:nth-child(even) {
-    background-color: #33336b !important;
-  }
-  
-  table th {
-    background: midnightblue;
-  } */
 
   table {
     /* filter: invert(100%) hue-rotate(200deg) !important; */
@@ -780,12 +767,8 @@ pre tt:after {
   table tr,
   table th,
   table td {
-    border: 2px solid #777799 !important;
+    border: 2px solid #777799;
   }
-
-  /* table.one-col tr:nth-child(even) {
-    background-color: #1f1f3f !important;
-  } */
 
   .one-col tr,
   .one-col tr:nth-child(even) {
@@ -798,10 +781,11 @@ pre tt:after {
   }
 
   .list-container {
-    border: 2px solid #ccccff !important;
+    border: 2px solid #777799 !important;
   }
 
   .list-container .product-subtitle {
     color: #ccccff !important;
+    border-bottom: 2px solid #777799;
   }
 }
