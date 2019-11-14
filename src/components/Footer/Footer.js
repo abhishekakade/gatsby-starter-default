@@ -1,7 +1,7 @@
 import React from "react"
-import "./Footer.css"
 import { Phone } from "styled-icons/icomoon"
 import { Link } from "gatsby"
+import "./Footer.css"
 
 const Footer = () => {
   return (

@@ -1,8 +1,8 @@
 import React from "react"
-import "../components/Products/Products.css"
 // import { Link } from "gatsby"
-import Layout from "../components/layout"
 import { CheckSquare } from "styled-icons/fa-solid"
+import Layout from "../components/layout"
+import "../components/Products/Products.css"
 
 import SEO from "../components/seo"
 

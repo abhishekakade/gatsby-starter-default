@@ -1,5 +1,4 @@
 import React from "react"
-import "./Contact.css"
 // import { Link } from "gatsby"
 import { Phone, Whatsapp } from "styled-icons/icomoon"
 import { Send } from "styled-icons/boxicons-solid"
@@ -9,6 +8,7 @@ import {
   ShortText,
   Subject,
 } from "styled-icons/material"
+import "./Contact.css"
 
 const Contact = () => {
   return (

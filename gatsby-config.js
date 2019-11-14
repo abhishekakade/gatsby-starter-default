@@ -84,6 +84,7 @@ module.exports = {
       },
     },
     "gatsby-plugin-netlify",
+    "gatsby-plugin-netlify-cache",
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
@@ -118,6 +119,6 @@ module.exports = {
           }),
       },
     },
-    "gatsby-plugin-webpack-bundle-analyser-v2",
+    // "gatsby-plugin-webpack-bundle-analyser-v2",
   ],
 }

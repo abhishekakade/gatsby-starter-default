@@ -3,20 +3,6 @@ import { Link } from "gatsby"
 // import boxBg from "../../images/box-bg.svg"
 import "./Products.css"
 
-// import FiberCement from "./GypsumBoards/FiberCement"
-// import FireResistant from "./GypsumBoards/FireResistant"
-// import MoistureResistant from "./GypsumBoards/MoistureResistant"
-// import Impact from "./GypsumBoards/Impact"
-// import MFR from "./GypsumBoards/MFR"
-// import RegularBoards from "./GypsumBoards/RegularBoards"
-// import Tiles from "./Tiles/Tiles"
-// import Premium from "./GypsumBoards/Premium"
-// import Convex from "./Plaster/Convex"
-// import Elite from "./Plaster/Elite"
-// import Stucco from "./Plaster/Stucco"
-
-// import StatsAnimation from "../StatsAnimation/StatsAnimation"
-
 const Products = () => {
   return (
     <section

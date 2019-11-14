@@ -1,7 +1,7 @@
 import React from "react"
 import { CheckSquare, PlusSquare } from "styled-icons/fa-solid"
-import Layout from "../components/layout"
 import { Link } from "gatsby"
+import Layout from "../components/layout"
 import "../components/Products/Products.css"
 
 const Plasters = () => {

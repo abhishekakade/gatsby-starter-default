@@ -1,6 +1,6 @@
 import React from "react"
-import "./StatsAnimation.css"
 import "../Products/Products.css"
+import "./StatsAnimation.css"
 const StatsAnimation = () => {
   return (
     <section

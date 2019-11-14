@@ -1,9 +1,9 @@
 import React from "react"
-import "./Navbar.css"
 import { Link } from "gatsby"
 import { FacebookSquare } from "styled-icons/fa-brands"
 import { Linkedin } from "styled-icons/fa-brands"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
+import "./Navbar.css"
 
 const Navbar = ({ siteName }) => {
   // const wideNav = document.getElementById("wide-nav")

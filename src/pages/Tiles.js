@@ -1,6 +1,6 @@
 import React from "react"
-import Layout from "../components/layout"
 import { CheckSquare, PlusSquare } from "styled-icons/fa-solid"
+import Layout from "../components/layout"
 import "../components/Products/Products.css"
 
 const Tiles = () => {

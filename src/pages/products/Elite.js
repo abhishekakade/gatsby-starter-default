@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../../components/layout"
-import "../../components/Products/Products.css"
 import SEO from "../../components/seo"
+import "../../components/Products/Products.css"
 
 const Elite = () => {
   return (
