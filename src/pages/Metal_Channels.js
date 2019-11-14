@@ -1,5 +1,4 @@
 import React from "react"
-
 import Layout from "../components/layout"
 import { CheckSquare } from "styled-icons/fa-solid"
 import "../components/Products/Products.css"

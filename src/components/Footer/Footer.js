@@ -2,6 +2,7 @@ import React from "react"
 import "./Footer.css"
 import { Phone } from "styled-icons/icomoon"
 import { Link } from "gatsby"
+
 const Footer = () => {
   return (
     <footer>

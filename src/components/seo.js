@@ -91,7 +91,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-const SEO = ({ title, description, image, pathname, article }) => (
+const SEO = ({ lang, title, description, image, pathname, article }) => (
   <StaticQuery
     query={query}
     render={({
@@ -113,7 +113,13 @@ const SEO = ({ title, description, image, pathname, article }) => (
       }
       return (
         <>
-          <Helmet title={seo.title} titleTemplate={titleTemplate}>
+          <Helmet
+            htmlAttributes={{
+              lang,
+            }}
+            title={seo.title}
+            titleTemplate={titleTemplate}
+          >
             <meta name="description" content={seo.description} />
             <meta name="image" content={seo.image} />
             {seo.url && <meta property="og:url" content={seo.url} />}
@@ -142,6 +148,7 @@ const SEO = ({ title, description, image, pathname, article }) => (
 )
 export default SEO
 SEO.propTypes = {
+  lang: PropTypes.string,
   title: PropTypes.string,
   description: PropTypes.string,
   image: PropTypes.string,

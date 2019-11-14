@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    lang: "en",
     title: `Sai India Gypsum Products Private Limited`,
     titleTemplate: "%s | Sai India Gypsum",
     description: `Sai India Gypsum is a trusted supplier of best quality gypsum boards, gypsum powder, drywall & other gypsum products in India.`,
@@ -117,5 +118,6 @@ module.exports = {
           }),
       },
     },
+    "gatsby-plugin-webpack-bundle-analyser-v2",
   ],
 }
