@@ -86,6 +86,12 @@ module.exports = {
     "gatsby-plugin-netlify",
     "gatsby-plugin-netlify-cache",
     "gatsby-plugin-sitemap",
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-sitemap`,
     //   options: {

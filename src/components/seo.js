@@ -120,6 +120,7 @@ const SEO = ({ lang, title, description, image, pathname, article }) => (
             title={seo.title}
             titleTemplate={titleTemplate}
           >
+            <meta charSet="utf-8" />
             <meta name="description" content={seo.description} />
             <meta name="image" content={seo.image} />
             {seo.url && <meta property="og:url" content={seo.url} />}
