@@ -23,6 +23,9 @@ const About = () => {
           <source srcSet={constructionImg768} media="(max-width: 768px)" />
           <img
             src={constructionImg768}
+            // loading="lazy"
+            // width="100%"
+            // height="100%"
             alt="Sai India Gypsum"
             id="about-page-img"
             style={{

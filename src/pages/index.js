@@ -13,7 +13,7 @@ import Contact from "../components/Contact/Contact"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO />
     <Homepage></Homepage>
     <Products></Products>
     {/* <About imgData={this.props}></About> */}
