@@ -76,13 +76,17 @@ module.exports = {
     //     },
     //   },
     // },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-145166770-1",
-        head: false,
-      },
-    },
+
+    // commenting out google analytics since site is just a demo now and analytics are no longer necessary
+
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: "UA-145166770-1",
+    //     head: false,
+    //   },
+    // },
+
     "gatsby-plugin-netlify",
     "gatsby-plugin-netlify-cache",
     "gatsby-plugin-sitemap",
