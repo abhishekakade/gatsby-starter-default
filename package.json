@@ -5,7 +5,7 @@
   "version": "0.2.0",
   "author": "Abhishek K",
   "dependencies": {
-    "gatsby": "^2.19.5",
+    "gatsby": "^4.25.7",
     "gatsby-background-image": "^0.8.19",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-google-analytics": "^2.1.34",
